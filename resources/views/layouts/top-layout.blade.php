@@ -62,7 +62,8 @@
 									<i class=" pbmit-base-icon-marker"></i>Los Angeles Gournadi, 1230 Bariasl</li>
 								<li>
 									<a href="tel:+(123)1234-567-8901">
-										<i class="pbmit-base-icon-phone-call-1"></i>+(123) 1234-567-8901
+										<i class="pbmit-base-icon-phone-call-1"></i>South Africa +27 71 723 4937
+										<i class="pbmit-base-icon-phone-call-1"></i>South Africa +27 71 723 4937
 									</a>
 								</li>
 							</ul>
@@ -232,7 +233,7 @@
 				</div>
 			</div>
 		</header>
-		
+	</div>	
 	@yield('content')
 		
 	

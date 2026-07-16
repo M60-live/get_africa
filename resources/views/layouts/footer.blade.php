@@ -50,7 +50,9 @@
                     <aside class="widget">
                         <h2 class="widget-title">Say Hello</h2>
                         <div class="pbmit-contact-widget-lines">
-                            <div class="pbmit-contact-widget-line pbmit-base-icon-phone">+1 840 841 25 69</div>
+                            
+                            <div class="pbmit-contact-widget-line pbmit-base-icon-phone">South Africa: <br>+27 71 723 4937</div>
+                            <div class="pbmit-contact-widget-line pbmit-base-icon-phone">Ghana:<br> +233 24 514 2414</div>
                             <div class="pbmit-contact-widget-line pbmit-base-icon-email">info@yourdomain.com</div>
                         </div>
                     </aside>
