@@ -1,0 +1,265 @@
+$pbmit_solaar-font: "pbmit_solaar";
+
+@font-face {
+    font-family: $pbmit_solaar-font;
+    src: url("../pbmit-solaar-icon/pbmit_solaar.woff2?06d8d78c62668da7505485fb2c8d815c") format("woff2"),
+url("../pbmit-solaar-icon/pbmit_solaar.woff?06d8d78c62668da7505485fb2c8d815c") format("woff"),
+url("../pbmit-solaar-icon/pbmit_solaar.eot?06d8d78c62668da7505485fb2c8d815c#iefix") format("embedded-opentype"),
+url("../pbmit-solaar-icon/pbmit_solaar.ttf?06d8d78c62668da7505485fb2c8d815c") format("truetype"),
+url("../pbmit-solaar-icon/pbmit_solaar.svg?06d8d78c62668da7505485fb2c8d815c#pbmit_solaar") format("svg");
+}
+
+i[class^="pbmit-solaar-"]:before, i[class*=" pbmit-solaar-icon-"]:before {
+    font-family: pbmit_solaar !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$pbmit_solaar-map: (
+    "plantation": "\f101",
+    "zero-emission": "\f102",
+    "green-technology": "\f103",
+    "ecosystem": "\f104",
+    "conservation": "\f105",
+    "natural-resources": "\f106",
+    "renewable": "\f107",
+    "energy-sources": "\f108",
+    "climate-change": "\f109",
+    "eco-friendly": "\f10a",
+    "sustainability": "\f10b",
+    "solar-energy": "\f10c",
+    "atomic-energy": "\f10d",
+    "waste-bin": "\f10e",
+    "energy-management": "\f10f",
+    "wind-energy": "\f110",
+    "gas": "\f111",
+    "eco-bag": "\f112",
+    "production": "\f113",
+    "street-light": "\f114",
+    "biomass-energy": "\f115",
+    "clean-energy": "\f116",
+    "environment": "\f117",
+    "green-energy": "\f118",
+    "nature": "\f119",
+    "industry": "\f11a",
+    "geothermal-energy": "\f11b",
+    "solar-panel": "\f11c",
+    "hydroelectric": "\f11d",
+    "think-green": "\f11e",
+    "globalization": "\f11f",
+    "recycle-bin": "\f120",
+    "reuse-water": "\f121",
+    "hydro-power": "\f122",
+    "wind-power": "\f123",
+    "eco-home": "\f124",
+    "eco-fuel": "\f125",
+    "think-eco": "\f126",
+    "coal": "\f127",
+    "eolic-energy": "\f128",
+    "battery": "\f129",
+    "research": "\f12a",
+    "biofuel": "\f12b",
+    "river": "\f12c",
+    "ocean-energy": "\f12d",
+    "nuclear-plant": "\f12e",
+    "forest": "\f12f",
+    "global-warming": "\f130",
+    "earth": "\f131",
+    "save-energy": "\f132",
+    "call": "\f133",
+    "place": "\f134",
+    "location-point": "\f135",
+    "email": "\f136",
+    "verified": "\f137",
+    "check": "\f138",
+    "dot": "\f139",
+    "top": "\f13a",
+    "right-arrow": "\f13b",
+    "straight-quotes": "\f13c",
+);
+
+.pbmit-solaar-icon-plantation:before {
+    content: map-get($pbmit_solaar-map, "plantation");
+}
+.pbmit-solaar-icon-zero-emission:before {
+    content: map-get($pbmit_solaar-map, "zero-emission");
+}
+.pbmit-solaar-icon-green-technology:before {
+    content: map-get($pbmit_solaar-map, "green-technology");
+}
+.pbmit-solaar-icon-ecosystem:before {
+    content: map-get($pbmit_solaar-map, "ecosystem");
+}
+.pbmit-solaar-icon-conservation:before {
+    content: map-get($pbmit_solaar-map, "conservation");
+}
+.pbmit-solaar-icon-natural-resources:before {
+    content: map-get($pbmit_solaar-map, "natural-resources");
+}
+.pbmit-solaar-icon-renewable:before {
+    content: map-get($pbmit_solaar-map, "renewable");
+}
+.pbmit-solaar-icon-energy-sources:before {
+    content: map-get($pbmit_solaar-map, "energy-sources");
+}
+.pbmit-solaar-icon-climate-change:before {
+    content: map-get($pbmit_solaar-map, "climate-change");
+}
+.pbmit-solaar-icon-eco-friendly:before {
+    content: map-get($pbmit_solaar-map, "eco-friendly");
+}
+.pbmit-solaar-icon-sustainability:before {
+    content: map-get($pbmit_solaar-map, "sustainability");
+}
+.pbmit-solaar-icon-solar-energy:before {
+    content: map-get($pbmit_solaar-map, "solar-energy");
+}
+.pbmit-solaar-icon-atomic-energy:before {
+    content: map-get($pbmit_solaar-map, "atomic-energy");
+}
+.pbmit-solaar-icon-waste-bin:before {
+    content: map-get($pbmit_solaar-map, "waste-bin");
+}
+.pbmit-solaar-icon-energy-management:before {
+    content: map-get($pbmit_solaar-map, "energy-management");
+}
+.pbmit-solaar-icon-wind-energy:before {
+    content: map-get($pbmit_solaar-map, "wind-energy");
+}
+.pbmit-solaar-icon-gas:before {
+    content: map-get($pbmit_solaar-map, "gas");
+}
+.pbmit-solaar-icon-eco-bag:before {
+    content: map-get($pbmit_solaar-map, "eco-bag");
+}
+.pbmit-solaar-icon-production:before {
+    content: map-get($pbmit_solaar-map, "production");
+}
+.pbmit-solaar-icon-street-light:before {
+    content: map-get($pbmit_solaar-map, "street-light");
+}
+.pbmit-solaar-icon-biomass-energy:before {
+    content: map-get($pbmit_solaar-map, "biomass-energy");
+}
+.pbmit-solaar-icon-clean-energy:before {
+    content: map-get($pbmit_solaar-map, "clean-energy");
+}
+.pbmit-solaar-icon-environment:before {
+    content: map-get($pbmit_solaar-map, "environment");
+}
+.pbmit-solaar-icon-green-energy:before {
+    content: map-get($pbmit_solaar-map, "green-energy");
+}
+.pbmit-solaar-icon-nature:before {
+    content: map-get($pbmit_solaar-map, "nature");
+}
+.pbmit-solaar-icon-industry:before {
+    content: map-get($pbmit_solaar-map, "industry");
+}
+.pbmit-solaar-icon-geothermal-energy:before {
+    content: map-get($pbmit_solaar-map, "geothermal-energy");
+}
+.pbmit-solaar-icon-solar-panel:before {
+    content: map-get($pbmit_solaar-map, "solar-panel");
+}
+.pbmit-solaar-icon-hydroelectric:before {
+    content: map-get($pbmit_solaar-map, "hydroelectric");
+}
+.pbmit-solaar-icon-think-green:before {
+    content: map-get($pbmit_solaar-map, "think-green");
+}
+.pbmit-solaar-icon-globalization:before {
+    content: map-get($pbmit_solaar-map, "globalization");
+}
+.pbmit-solaar-icon-recycle-bin:before {
+    content: map-get($pbmit_solaar-map, "recycle-bin");
+}
+.pbmit-solaar-icon-reuse-water:before {
+    content: map-get($pbmit_solaar-map, "reuse-water");
+}
+.pbmit-solaar-icon-hydro-power:before {
+    content: map-get($pbmit_solaar-map, "hydro-power");
+}
+.pbmit-solaar-icon-wind-power:before {
+    content: map-get($pbmit_solaar-map, "wind-power");
+}
+.pbmit-solaar-icon-eco-home:before {
+    content: map-get($pbmit_solaar-map, "eco-home");
+}
+.pbmit-solaar-icon-eco-fuel:before {
+    content: map-get($pbmit_solaar-map, "eco-fuel");
+}
+.pbmit-solaar-icon-think-eco:before {
+    content: map-get($pbmit_solaar-map, "think-eco");
+}
+.pbmit-solaar-icon-coal:before {
+    content: map-get($pbmit_solaar-map, "coal");
+}
+.pbmit-solaar-icon-eolic-energy:before {
+    content: map-get($pbmit_solaar-map, "eolic-energy");
+}
+.pbmit-solaar-icon-battery:before {
+    content: map-get($pbmit_solaar-map, "battery");
+}
+.pbmit-solaar-icon-research:before {
+    content: map-get($pbmit_solaar-map, "research");
+}
+.pbmit-solaar-icon-biofuel:before {
+    content: map-get($pbmit_solaar-map, "biofuel");
+}
+.pbmit-solaar-icon-river:before {
+    content: map-get($pbmit_solaar-map, "river");
+}
+.pbmit-solaar-icon-ocean-energy:before {
+    content: map-get($pbmit_solaar-map, "ocean-energy");
+}
+.pbmit-solaar-icon-nuclear-plant:before {
+    content: map-get($pbmit_solaar-map, "nuclear-plant");
+}
+.pbmit-solaar-icon-forest:before {
+    content: map-get($pbmit_solaar-map, "forest");
+}
+.pbmit-solaar-icon-global-warming:before {
+    content: map-get($pbmit_solaar-map, "global-warming");
+}
+.pbmit-solaar-icon-earth:before {
+    content: map-get($pbmit_solaar-map, "earth");
+}
+.pbmit-solaar-icon-save-energy:before {
+    content: map-get($pbmit_solaar-map, "save-energy");
+}
+.pbmit-solaar-icon-call:before {
+    content: map-get($pbmit_solaar-map, "call");
+}
+.pbmit-solaar-icon-place:before {
+    content: map-get($pbmit_solaar-map, "place");
+}
+.pbmit-solaar-icon-location-point:before {
+    content: map-get($pbmit_solaar-map, "location-point");
+}
+.pbmit-solaar-icon-email:before {
+    content: map-get($pbmit_solaar-map, "email");
+}
+.pbmit-solaar-icon-verified:before {
+    content: map-get($pbmit_solaar-map, "verified");
+}
+.pbmit-solaar-icon-check:before {
+    content: map-get($pbmit_solaar-map, "check");
+}
+.pbmit-solaar-icon-dot:before {
+    content: map-get($pbmit_solaar-map, "dot");
+}
+.pbmit-solaar-icon-top:before {
+    content: map-get($pbmit_solaar-map, "top");
+}
+.pbmit-solaar-icon-right-arrow:before {
+    content: map-get($pbmit_solaar-map, "right-arrow");
+}
+.pbmit-solaar-icon-straight-quotes:before {
+    content: map-get($pbmit_solaar-map, "straight-quotes");
+}

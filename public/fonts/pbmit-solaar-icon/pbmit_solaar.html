@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Solaar Webfont</title>
+    <link rel="stylesheet" type="text/css" href="pbmit_solaar.css"/>
+    <meta charset="UTF-8">
+    <style>
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed,
+        figure, figcaption, footer, header, hgroup,
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure,
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+
+        body {
+            line-height: 1;
+        }
+
+        ol, ul {
+            list-style: none;
+        }
+
+        blockquote, q {
+            quotes: none;
+        }
+
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        body {
+            font-family: Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 15px;
+            line-height: 1.6;
+            color: #777777;
+        }
+
+        a {
+            color: #52D999;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        * {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        [class^="pbmit-solaar-icon-"]:before, [class*=" pbmit-solaar-icon-"]:before, [class^="pbmit-solaar-icon-"]:after, [class*=" pbmit-solaar-icon-"]:after {
+            font-family: pbmit_solaar;
+            font-size: 32px;
+            line-height: 1.25;
+            font-style: normal; 
+            margin-left: 20px;
+            color: #424242;
+        }
+
+        .wrapper {
+            max-width: 600px;
+            margin: auto;
+            padding: 0 1em;
+        }
+
+        .title {
+            margin-bottom: 24px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        header {
+            text-align: center;
+            padding: 24px;
+        }
+
+        header .logo {
+            height: auto;
+            border: none;
+            display: inline-block;
+        }
+
+        header strong {
+            font-size: 24px;
+            line-height: 1.25;
+            font-weight: 500;
+            vertical-align: middle;
+        }
+
+        .demo {
+            margin: 2em auto;
+            line-height: 1.25;
+        }
+
+        .demo ul li {
+            margin-bottom: 12px;
+        }
+
+        .demo ul li code {
+            background-color: #121212;
+            border-radius: 3px;
+            padding: 12px;
+            display: inline-block;
+            color: #fff;
+            font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+            font-weight: lighter;
+            margin-top: 12px;
+            font-size: 13px;
+            word-break: break-all;
+        }
+
+        .demo ul li code .red {
+            color: #EB644C;
+        }
+
+        .demo ul li code .green {
+            color: #52D999;
+        }
+
+        .demo ul li code .yellow {
+            color: #FFF4D9;
+        }
+
+        .demo ul li code .blue {
+            color: #648EEF;
+        }
+
+        .demo ul li code .purple {
+            color: #6569BD;
+        }
+
+        .demo ul li code .dots {
+            margin-top: 0.5em;
+            display: block;
+        }
+
+        #glyphs {
+            border-bottom: 1px solid #E5E5E5;
+            padding: 2em 0;
+            text-align: center;
+        }
+
+        .glyph {
+            display: inline-block;
+            width: 9em;
+            margin: 1em;
+            text-align: center;
+            vertical-align: top;
+            background: #FFF;
+        }
+
+        .glyph .pbmit-solaar-icon {
+            padding: 10px;
+            display: block;
+            font-family: "pbmit_solaar";
+            font-size: 64px;
+            line-height: 1;
+        }
+
+        .glyph .pbmit-solaar-icon:before {
+            font-size: 64px;
+            color: #777777;
+            margin-left: 0;
+        }
+
+        .class-name {
+            font-size: 0.65em;
+            background-color: #E5E5E5;
+            color: #9C9C9C;
+            border-radius: 4px 4px 0 0;
+            padding: 0.5em;
+            font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+        }
+
+        .author-name {
+            font-size: 0.6em;
+            background-color: #EFF3F6;
+            border-top: 0;
+            border-radius: 0 0 4px 4px;
+            padding: 0.5em;
+        }
+
+        .author-name a {
+            color: #121212;
+        }
+
+        .class-name:last-child {
+            font-size: 10px;
+            line-height: 1.75;
+            color: #888;
+        }
+
+        .class-name:last-child a {
+            font-size: 10px;
+            line-height: 1.75;
+            color: #555;
+        }
+
+        .glyph > input {
+            display: block;
+            width: 100px;
+            margin: 5px auto;
+            text-align: center;
+            font-size: 12px;
+            line-height: 1.75;
+            cursor: text;
+        }
+
+        .glyph > input.icon-input {
+            font-family: "pbmit_solaar";
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .attribution .title {
+            margin-top: 2em;
+        }
+
+        .attribution textarea {
+            background-color: #F8FAFB;
+            color: #121212;
+            padding: 1em;
+            border: none;
+            box-shadow: none;
+            border: 1px solid #E5E5E5;
+            border-radius: 4px;
+            resize: none;
+            width: 100%;
+            height: 150px;
+            font-size: 13px;
+            line-height: 1.6;
+            font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+            -webkit-appearance: none;
+        }
+
+        .attribution textarea:hover {
+            border-color: #CFD9E0;
+        }
+
+        .attribution textarea:focus {
+            border-color: #52D999;
+        }
+
+        .iconsuse {
+            margin: 2em auto;
+            text-align: center;
+            max-width: 1200px;
+        }
+
+        .iconsuse:after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+
+        .iconsuse .image {
+            float: left;
+            width: 25%;
+            padding: 0 1em;
+        }
+
+        .iconsuse .image p {
+            margin-bottom: 1em;
+        }
+
+        .iconsuse .image span {
+            display: block;
+            font-size: 0.65em;
+            background-color: #222;
+            color: #fff;
+            border-radius: 4px;
+            padding: 10px;
+            color: #FFFF99;
+            margin-top: 1em;
+            font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+        }
+
+        .pbmit-solaar-icon:before {
+            color: #777777;
+        }
+
+        #footer {
+            text-align: center;
+            background-color: #121212;
+            color: #9C9C9C;
+            padding: 12px;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+
+        #footer a {
+            font-weight: normal;
+        }
+
+        @media (max-width: 960px) {
+            .iconsuse .image {
+                width: 50%;
+            }
+        }
+
+        .preview {
+            width: 100px;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .preview .inner {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            background: #F7F7F7;
+            -webkit-border-radius: 3px 3px 0 0;
+            -moz-border-radius: 3px 3px 0 0;
+            border-radius: 3px 3px 0 0;
+        }
+
+        .preview .inner  {
+            line-height: 85px;
+            font-size: 40px;
+            color: #424242;
+        }
+
+        .label {
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 5px;
+            font-size: 10px;
+            font-family: Monaco, monospace;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            background: #ddd;
+            -webkit-border-radius: 0 0 3px 3px;
+            -moz-border-radius: 0 0 3px 3px;
+            border-radius: 0 0 3px 3px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="demo wrapper">
+
+        <p class="title">Webfont Instructions</p>
+
+        <ul>
+            <li>
+                <span class="num">1. </span>Copy the "Fonts" files and CSS files to your website CSS folder.
+            </li>
+            <li>
+                <span class="num">2. </span>Add the CSS link to your website source code on header.
+                <code class="big">
+                    &lt;<span class="red">head</span>&gt;
+                    <br/><span class="dots">...</span>
+                    <br/>&lt;<span class="red">link</span> <span class="green">rel</span>=<span
+                        class="yellow">"stylesheet"</span> <span class="green">type</span>=<span
+                        class="yellow">"text/css"</span> <span class="green">href</span>=<span class="yellow">"your_website_domain/css_root/pbmit_solaar.css"</span>&gt;
+                    <br/><span class="dots">...</span>
+                    <br/>&lt;/<span class="red">head</span>&gt;
+                </code>
+            </li>
+
+            <li>
+                <p>
+                    <span class="num">3. </span>Use the icon class on <code>"<span class="blue">display</span>:<span
+                        class="purple"> inline</span>"</code> elements:
+                    <br/>
+                    Use example: <code>&lt;<span class="red">i</span> <span class="green">class</span>=<span class="yellow">&quot;pbmit-airplane49&quot;</span>&gt;&lt;/<span
+                        class="red">i</span>&gt;</code> or <code>&lt;<span class="red">span</span> <span
+                        class="green">class</span>=<span class="yellow">&quot;pbmit-airplane49&quot;</span>&gt;&lt;/<span
+                        class="red">span</span>&gt;</code>
+            </li>
+        </ul>
+
+    </section>
+    <section id="glyphs">
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-plantation"></i>
+                <div class="class-name">.pbmit-solaar-icon-plantation</div>
+                <div class="author-name">Author: #author-link-pbmit-plantation# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-zero-emission"></i>
+                <div class="class-name">.pbmit-solaar-icon-zero-emission</div>
+                <div class="author-name">Author: #author-link-pbmit-zero-emission# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-green-technology"></i>
+                <div class="class-name">.pbmit-solaar-icon-green-technology</div>
+                <div class="author-name">Author: #author-link-pbmit-green-technology# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-ecosystem"></i>
+                <div class="class-name">.pbmit-solaar-icon-ecosystem</div>
+                <div class="author-name">Author: #author-link-pbmit-ecosystem# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-conservation"></i>
+                <div class="class-name">.pbmit-solaar-icon-conservation</div>
+                <div class="author-name">Author: #author-link-pbmit-conservation# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-natural-resources"></i>
+                <div class="class-name">.pbmit-solaar-icon-natural-resources</div>
+                <div class="author-name">Author: #author-link-pbmit-natural-resources# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-renewable"></i>
+                <div class="class-name">.pbmit-solaar-icon-renewable</div>
+                <div class="author-name">Author: #author-link-pbmit-renewable# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-energy-sources"></i>
+                <div class="class-name">.pbmit-solaar-icon-energy-sources</div>
+                <div class="author-name">Author: #author-link-pbmit-energy-sources# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-climate-change"></i>
+                <div class="class-name">.pbmit-solaar-icon-climate-change</div>
+                <div class="author-name">Author: #author-link-pbmit-climate-change# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-eco-friendly"></i>
+                <div class="class-name">.pbmit-solaar-icon-eco-friendly</div>
+                <div class="author-name">Author: #author-link-pbmit-eco-friendly# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-sustainability"></i>
+                <div class="class-name">.pbmit-solaar-icon-sustainability</div>
+                <div class="author-name">Author: #author-link-pbmit-sustainability# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-solar-energy"></i>
+                <div class="class-name">.pbmit-solaar-icon-solar-energy</div>
+                <div class="author-name">Author: #author-link-pbmit-solar-energy# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-atomic-energy"></i>
+                <div class="class-name">.pbmit-solaar-icon-atomic-energy</div>
+                <div class="author-name">Author: #author-link-pbmit-atomic-energy# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-waste-bin"></i>
+                <div class="class-name">.pbmit-solaar-icon-waste-bin</div>
+                <div class="author-name">Author: #author-link-pbmit-waste-bin# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-energy-management"></i>
+                <div class="class-name">.pbmit-solaar-icon-energy-management</div>
+                <div class="author-name">Author: #author-link-pbmit-energy-management# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-wind-energy"></i>
+                <div class="class-name">.pbmit-solaar-icon-wind-energy</div>
+                <div class="author-name">Author: #author-link-pbmit-wind-energy# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-gas"></i>
+                <div class="class-name">.pbmit-solaar-icon-gas</div>
+                <div class="author-name">Author: #author-link-pbmit-gas# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-eco-bag"></i>
+                <div class="class-name">.pbmit-solaar-icon-eco-bag</div>
+                <div class="author-name">Author: #author-link-pbmit-eco-bag# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-production"></i>
+                <div class="class-name">.pbmit-solaar-icon-production</div>
+                <div class="author-name">Author: #author-link-pbmit-production# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-street-light"></i>
+                <div class="class-name">.pbmit-solaar-icon-street-light</div>
+                <div class="author-name">Author: #author-link-pbmit-street-light# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-biomass-energy"></i>
+                <div class="class-name">.pbmit-solaar-icon-biomass-energy</div>
+                <div class="author-name">Author: #author-link-pbmit-biomass-energy# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-clean-energy"></i>
+                <div class="class-name">.pbmit-solaar-icon-clean-energy</div>
+                <div class="author-name">Author: #author-link-pbmit-clean-energy# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-environment"></i>
+                <div class="class-name">.pbmit-solaar-icon-environment</div>
+                <div class="author-name">Author: #author-link-pbmit-environment# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-green-energy"></i>
+                <div class="class-name">.pbmit-solaar-icon-green-energy</div>
+                <div class="author-name">Author: #author-link-pbmit-green-energy# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-nature"></i>
+                <div class="class-name">.pbmit-solaar-icon-nature</div>
+                <div class="author-name">Author: #author-link-pbmit-nature# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-industry"></i>
+                <div class="class-name">.pbmit-solaar-icon-industry</div>
+                <div class="author-name">Author: #author-link-pbmit-industry# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-geothermal-energy"></i>
+                <div class="class-name">.pbmit-solaar-icon-geothermal-energy</div>
+                <div class="author-name">Author: #author-link-pbmit-geothermal-energy# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-solar-panel"></i>
+                <div class="class-name">.pbmit-solaar-icon-solar-panel</div>
+                <div class="author-name">Author: #author-link-pbmit-solar-panel# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-hydroelectric"></i>
+                <div class="class-name">.pbmit-solaar-icon-hydroelectric</div>
+                <div class="author-name">Author: #author-link-pbmit-hydroelectric# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-think-green"></i>
+                <div class="class-name">.pbmit-solaar-icon-think-green</div>
+                <div class="author-name">Author: #author-link-pbmit-think-green# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-globalization"></i>
+                <div class="class-name">.pbmit-solaar-icon-globalization</div>
+                <div class="author-name">Author: #author-link-pbmit-globalization# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-recycle-bin"></i>
+                <div class="class-name">.pbmit-solaar-icon-recycle-bin</div>
+                <div class="author-name">Author: #author-link-pbmit-recycle-bin# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-reuse-water"></i>
+                <div class="class-name">.pbmit-solaar-icon-reuse-water</div>
+                <div class="author-name">Author: #author-link-pbmit-reuse-water# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-hydro-power"></i>
+                <div class="class-name">.pbmit-solaar-icon-hydro-power</div>
+                <div class="author-name">Author: #author-link-pbmit-hydro-power# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-wind-power"></i>
+                <div class="class-name">.pbmit-solaar-icon-wind-power</div>
+                <div class="author-name">Author: #author-link-pbmit-wind-power# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-eco-home"></i>
+                <div class="class-name">.pbmit-solaar-icon-eco-home</div>
+                <div class="author-name">Author: #author-link-pbmit-eco-home# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-eco-fuel"></i>
+                <div class="class-name">.pbmit-solaar-icon-eco-fuel</div>
+                <div class="author-name">Author: #author-link-pbmit-eco-fuel# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-think-eco"></i>
+                <div class="class-name">.pbmit-solaar-icon-think-eco</div>
+                <div class="author-name">Author: #author-link-pbmit-think-eco# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-coal"></i>
+                <div class="class-name">.pbmit-solaar-icon-coal</div>
+                <div class="author-name">Author: #author-link-pbmit-coal# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-eolic-energy"></i>
+                <div class="class-name">.pbmit-solaar-icon-eolic-energy</div>
+                <div class="author-name">Author: #author-link-pbmit-eolic-energy# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-battery"></i>
+                <div class="class-name">.pbmit-solaar-icon-battery</div>
+                <div class="author-name">Author: #author-link-pbmit-battery# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-research"></i>
+                <div class="class-name">.pbmit-solaar-icon-research</div>
+                <div class="author-name">Author: #author-link-pbmit-research# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-biofuel"></i>
+                <div class="class-name">.pbmit-solaar-icon-biofuel</div>
+                <div class="author-name">Author: #author-link-pbmit-biofuel# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-river"></i>
+                <div class="class-name">.pbmit-solaar-icon-river</div>
+                <div class="author-name">Author: #author-link-pbmit-river# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-ocean-energy"></i>
+                <div class="class-name">.pbmit-solaar-icon-ocean-energy</div>
+                <div class="author-name">Author: #author-link-pbmit-ocean-energy# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-nuclear-plant"></i>
+                <div class="class-name">.pbmit-solaar-icon-nuclear-plant</div>
+                <div class="author-name">Author: #author-link-pbmit-nuclear-plant# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-forest"></i>
+                <div class="class-name">.pbmit-solaar-icon-forest</div>
+                <div class="author-name">Author: #author-link-pbmit-forest# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-global-warming"></i>
+                <div class="class-name">.pbmit-solaar-icon-global-warming</div>
+                <div class="author-name">Author: #author-link-pbmit-global-warming# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-earth"></i>
+                <div class="class-name">.pbmit-solaar-icon-earth</div>
+                <div class="author-name">Author: #author-link-pbmit-earth# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-save-energy"></i>
+                <div class="class-name">.pbmit-solaar-icon-save-energy</div>
+                <div class="author-name">Author: #author-link-pbmit-save-energy# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-call"></i>
+                <div class="class-name">.pbmit-solaar-icon-call</div>
+                <div class="author-name">Author: #author-link-pbmit-call# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-place"></i>
+                <div class="class-name">.pbmit-solaar-icon-place</div>
+                <div class="author-name">Author: #author-link-pbmit-place# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-location-point"></i>
+                <div class="class-name">.pbmit-solaar-icon-location-point</div>
+                <div class="author-name">Author: #author-link-pbmit-location-point# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-email"></i>
+                <div class="class-name">.pbmit-solaar-icon-email</div>
+                <div class="author-name">Author: #author-link-pbmit-email# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>
+                <div class="class-name">.pbmit-solaar-icon-verified</div>
+                <div class="author-name">Author: #author-link-pbmit-verified# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-check"></i>
+                <div class="class-name">.pbmit-solaar-icon-check</div>
+                <div class="author-name">Author: #author-link-pbmit-check# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-dot"></i>
+                <div class="class-name">.pbmit-solaar-icon-dot</div>
+                <div class="author-name">Author: #author-link-pbmit-dot# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-top"></i>
+                <div class="class-name">.pbmit-solaar-icon-top</div>
+                <div class="author-name">Author: #author-link-pbmit-top# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-right-arrow"></i>
+                <div class="class-name">.pbmit-solaar-icon-right-arrow</div>
+                <div class="author-name">Author: #author-link-pbmit-right-arrow# </div>
+            </div>
+
+            <div class="glyph">
+                <i class="pbmit-solaar-icon pbmit-solaar-icon-straight-quotes"></i>
+                <div class="class-name">.pbmit-solaar-icon-straight-quotes</div>
+                <div class="author-name">Author: #author-link-pbmit-straight-quotes# </div>
+            </div>
+
+    </section>
+
+    <div id="footer">
+        <div>Generated by <a href="https://www.pbminfotech.com">PBMinfotech</a>
+        </div>
+    </div>
+
+</body>
+</html>
