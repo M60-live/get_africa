@@ -91,18 +91,13 @@
                                             <nav class="main-menu pbmit-navbar">
                                                 <div>
                                                     <ul id="pbmit-top-menu" class="navigation clearfix">
-                                                        <li class="dropdown active">
-                                                            <a href="#">Home</a>
-                                                            <ul>
-                                                                <li><a href="index.html">Homepage 01</a></li>
-                                                                <li class="active"><a href="homepage-2.html">Homepage 02</a></li>
-                                                            </ul>
-                                                        </li>
+                                                        <li>
+                                                            <a href="/">Home</a>
+														</li>
                                                         <li class="dropdown">
-                                                            <a href="#">pages</a>
+                                                            <a href="#">Pages</a>
                                                             <ul>
-                                                                <li><a href="about-us.html">About Us</a></li>
-                                                                <li><a href="our-history.html">Our History</a></li>
+                                                                <li><a href="/about-us">About Us</a></li>
                                                                 <li><a href="faq.html">Faq</a></li>
                                                                 <li><a href="our-team.html">Our Team</a></li>
                                                                 <li><a href="team-member-detail.html">Team Member Detail</a></li>
@@ -111,7 +106,26 @@
                                                         <li class="dropdown">
                                                             <a href="#">Services</a>
                                                             <ul>
-                                                                <li><a href="service-details.html">Service Detail</a></li>
+                                                                <li><a href="/feasibility-studies">Feasibility and Project Development</a></li>
+																<li><a href="/hydrology">Hydrology</a></li>
+																<li><a href="/hydrogeology">Hydrogeology</a></li>
+																<li><a href="/geochemistry">Geochemistry</a></li>
+                                                                <li><a href="/soil-science">Soil Science</a></li>
+                                                                <li><a href="/geotechnical-services">Geotechnical Services</a></li>
+                                                                <li><a href="/hydropower">Hydropower</a></li>
+                                                                <li><a href="/infrastructure">Infrastructure</a></li>
+                                                                <li><a href="/energy">Energy & Energy Transition</a></li>
+                                                                <li><a href="/gis-and-drone-survey">GIS & Drone Survey</a></li>
+                                                                <li><a href="/integrated-data-science-and-ai-modelling">Integrated Data Science & AI Modelling</a></li>
+                                                                <li><a href="/laboratory-services">Laboratory Services</a></li>
+                                                                <li><a href="/environmental-monitoring-equipment-supply">Environmental Monitoring Equipment Supply</a></li>
+                                                                <li><a href="/environmental-assessment">Environmental Assessment</a></li>
+                                                                <li><a href="/groundwater">Groundwater</a></li>
+                                                                <li><a href="/geophysics-ert">Geophysics/Electrical Resistivity Tomography(ERT)</a></li>
+                                                                <li><a href="/risk-assessment">Risk Assessment and Management at Petroleum Hydrocarbon Contaminated Sites</a></li>
+                                                                <li><a href="/surface-water-hydrological-processes">Surface Water/Hydrological Processes</a></li>
+                                                                <li><a href="/basic-assessment">Basic Assessment Scoping and EIAS, WULA and Borehole Registration</a></li>
+
                                                             </ul>
                                                         </li>
                                                         <li class="dropdown">
@@ -152,43 +166,14 @@
                                                                 </li>
                                                             </ul>
                                                         </li>
-                                                        <li class="dropdown">
-                                                            <a href="#">Blog</a>
-                                                            <ul>
-                                                                <li class="dropdown">
-                                                                    <a href="#">Blog Masonry View</a>
-                                                                    <ul class="sub-menu">
-                                                                        <li><a href="blog-m-grid-col-2.html">Blog M Grid Col 2</a></li>
-                                                                        <li><a href="blog-m-grid-col-3.html">Blog M Grid Col 3</a></li>
-                                                                        <li><a href="blog-m-grid-col-4.html">Blog M Grid Col 4</a></li>
-                                                                        <li><a href="blog-masonry-wide.html">Blog Masonry Wide</a></li>
-                                                                    </ul>
-                                                                </li>
-                                                                <li class="dropdown">
-                                                                    <a href="#">Blog Grid View</a>
-                                                                    <ul class="sub-menu">
-                                                                        <li><a href="blog-grid-col-3.html">Blog Grid Col 3</a></li>
-                                                                        <li><a href="blog-grid-col-4.html">Blog Grid Col 4</a></li>
-                                                                        <li><a href="blog-sortable-grid-view.html">Blog Sortable Grid View</a></li>
-                                                                    </ul>
-                                                                </li>
-                                                                <li><a href="blog-classic.html">Blog Classic</a></li>
-                                                                <li><a href="blog-single-details.html">Blog Single Details</a></li>
-                                                            </ul>
-                                                        </li>
                                                         <li>
-                                                            <a href="contact-us.html">Contact Us</a>
+                                                            <a href="/contact-us">Contact Us</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </nav>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="pbmit-header-search-btn">
-                                    <a href="#" title="Search">
-                                        <i class="pbmit-base-icon-search-1"></i>
-                                    </a>
                                 </div>
                                 <div class="pbmit-right-box d-flex align-items-center">
                                     <div class="pbmit-header-social">
@@ -216,7 +201,7 @@
                                         </ul>
                                     </div>
                                     <div class="pbmit-button-box">
-                                        <a href="contact-us.html" class="pbmit-btn">
+                                        <a href="/contact-us" class="pbmit-btn">
                                             <span class="pbmit-button-text">Get in touch</span>
                                         </a>
                                     </div>
@@ -232,203 +217,21 @@
                     </div>
                 </div>
             </div>
-
-            <div class="pbmit-slider-area pbmit-slider-two">
-                <div class="swiper-slider" data-autoplay="true" data-loop="true" data-dots="false" data-arrows="false" data-columns="1" data-margin="0" data-effect="fade">
-                    <div class="swiper-wrapper">
-                        <!-- Slide1 -->
-                        <div class="swiper-slide">
-                            <div class="pbmit-slider-item">
-                                <div class="pbmit-slider-bg" style="background-image: url(images/banner-slider-img/Slider02-1.jpg);"></div>
-                                <div class="container">
-                                    <div class="row g-0">
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="pbmit-slider-block">
-                                                <div class="pbmit-slider-content">
-                                                    <h5 class="pbmit-slider-subtitle transform-top transform-delay-1">
-                                                        Solaar Solar Energy Services INC
-                                                    </h5>
-                                                    <h2 class="pbmit-slider-title transform-left transform-delay-2">
-                                                        Sun Power for<br> Every Nation
-                                                    </h2>
-                                                    <div class="pbmit-button d-flex">
-                                                        <div class="transform-bottom transform-delay-3">
-                                                            <a href="contact-us.html" class="pbmit-btn">
-                                                                <span class="pbmit-button-text">Get Started</span>
-                                                            </a>
-                                                        </div>
-                                                        <div class="ms-xl-4 ms-2 transform-bottom transform-delay-4">
-                                                            <a href="contact-us.html" class="pbmit-btn outline">
-                                                                <span class="pbmit-button-text">Get a Quote</span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="transform-center transform-delay-5">
-                                                        <div class="list-group-wrap">
-                                                            <ul class="list-group">
-                                                                <li class="list-group-item">
-																	<span class="pbmit-icon-list-icon">
-																		<i class="pbmit-base-icon-check-solid"></i>
-																	</span>
-                                                                    <span class="pbmit-icon-list-text">Professional</span>
-                                                                </li>
-                                                                <li class="list-group-item">
-																	<span class="pbmit-icon-list-icon">
-																		<i class="pbmit-base-icon-check-solid"></i>
-																	</span>
-                                                                    <span class="pbmit-icon-list-text">Friendly</span>
-                                                                </li>
-                                                                <li class="list-group-item">
-																	<span class="pbmit-icon-list-icon">
-																		<i class="pbmit-base-icon-check-solid"></i>
-																	</span>
-                                                                    <span class="pbmit-icon-list-text">Convenient</span>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Slide2 -->
-                        <div class="swiper-slide">
-                            <div class="pbmit-slider-item">
-                                <div class="pbmit-slider-bg" style="background-image: url(images/banner-slider-img/Slider02-2.jpg);"></div>
-                                <div class="container">
-                                    <div class="row g-0">
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="pbmit-slider-block">
-                                                <div class="pbmit-slider-content">
-                                                    <h5 class="pbmit-slider-subtitle transform-top transform-delay-1">
-                                                        Clean Energy, Bright Tomorrow
-                                                    </h5>
-                                                    <h2 class="pbmit-slider-title transform-left transform-delay-2">
-                                                        Sun Power for<br> Every Nation
-                                                    </h2>
-                                                    <div class="pbmit-button d-flex">
-                                                        <div class="transform-bottom transform-delay-3">
-                                                            <a href="contact-us.html" class="pbmit-btn">
-                                                                <span class="pbmit-button-text">Get Started</span>
-                                                            </a>
-                                                        </div>
-                                                        <div class="ms-xl-4 ms-2 transform-bottom transform-delay-4">
-                                                            <a href="contact-us.html" class="pbmit-btn outline">
-                                                                <span class="pbmit-button-text">Get a Quote</span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="transform-center transform-delay-5">
-                                                        <div class="list-group-wrap">
-                                                            <ul class="list-group">
-                                                                <li class="list-group-item">
-																	<span class="pbmit-icon-list-icon">
-																		<i class="pbmit-base-icon-check-solid"></i>
-																	</span>
-                                                                    <span class="pbmit-icon-list-text">Professional</span>
-                                                                </li>
-                                                                <li class="list-group-item">
-																	<span class="pbmit-icon-list-icon">
-																		<i class="pbmit-base-icon-check-solid"></i>
-																	</span>
-                                                                    <span class="pbmit-icon-list-text">Friendly</span>
-                                                                </li>
-                                                                <li class="list-group-item">
-																	<span class="pbmit-icon-list-icon">
-																		<i class="pbmit-base-icon-check-solid"></i>
-																	</span>
-                                                                    <span class="pbmit-icon-list-text">Convenient</span>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Slide3 -->
-                        <div class="swiper-slide">
-                            <div class="pbmit-slider-item">
-                                <div class="pbmit-slider-bg" style="background-image: url(images/banner-slider-img/Slider02-3.jpg);"></div>
-                                <div class="container">
-                                    <div class="row g-0">
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="pbmit-slider-block">
-                                                <div class="pbmit-slider-content">
-                                                    <h5 class="pbmit-slider-subtitle transform-top transform-delay-1">
-                                                        Clean Energy, Bright Tomorrow
-                                                    </h5>
-                                                    <h2 class="pbmit-slider-title transform-left transform-delay-2">
-                                                        Sun Power for<br> Every Nation
-                                                    </h2>
-                                                    <div class="pbmit-button d-flex">
-                                                        <div class="transform-bottom transform-delay-3">
-                                                            <a href="contact-us.html" class="pbmit-btn">
-                                                                <span class="pbmit-button-text">Get Started</span>
-                                                            </a>
-                                                        </div>
-                                                        <div class="ms-xl-4 ms-2 transform-bottom transform-delay-4">
-                                                            <a href="contact-us.html" class="pbmit-btn outline">
-                                                                <span class="pbmit-button-text">Get a Quote</span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="transform-center transform-delay-5">
-                                                        <div class="list-group-wrap">
-                                                            <ul class="list-group">
-                                                                <li class="list-group-item">
-																	<span class="pbmit-icon-list-icon">
-																		<i class="pbmit-base-icon-check-solid"></i>
-																	</span>
-                                                                    <span class="pbmit-icon-list-text">Professional</span>
-                                                                </li>
-                                                                <li class="list-group-item">
-																	<span class="pbmit-icon-list-icon">
-																		<i class="pbmit-base-icon-check-solid"></i>
-																	</span>
-                                                                    <span class="pbmit-icon-list-text">Friendly</span>
-                                                                </li>
-                                                                <li class="list-group-item">
-																	<span class="pbmit-icon-list-icon">
-																		<i class="pbmit-base-icon-check-solid"></i>
-																	</span>
-                                                                    <span class="pbmit-icon-list-text">Convenient</span>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
 		</header>
+	
+		@yield('content')
+
+
+
+
+		<!-- Scroll To Top -->
+		<div class="pbmit-progress-wrap">
+			<svg class="pbmit-progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+				<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+			</svg>
+		</div>
+		<!-- Scroll To Top End -->
 	</div>
-	@yield('content')
-
-
-
-
-	<!-- Scroll To Top -->
-	<div class="pbmit-progress-wrap">
-		<svg class="pbmit-progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-			<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
-		</svg>
-	</div>
-	<!-- Scroll To Top End -->
-
 	<!-- JS
 	============================================ -->
 	<!-- jQuery JS -->

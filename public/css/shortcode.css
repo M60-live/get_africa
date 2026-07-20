@@ -2333,6 +2333,27 @@
     z-index: 1;
 	overflow: hidden;
 }
+
+.pbmit-title-bar-wrapper1{
+	background-image: url(../images/bg/Energy.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+	position: relative;
+    z-index: 1;
+	overflow: hidden;
+}
+.pbmit-title-bar-wrapper2{
+	background-image: url(../images/bg/titlebar-bg.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+	position: relative;
+    z-index: 1;
+	overflow: hidden;
+}
 .pbmit-title-bar-wrapper:after{
 	content: "";
     position: absolute;

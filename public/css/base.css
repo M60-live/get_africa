@@ -17,9 +17,9 @@ INDEX:
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet');
 
 :root {
-	--pbmit-global-color: #197de6;
+	--pbmit-global-color: #8ebb2d;
 	--pbmit-global-color-rgb: 142, 187, 45;
-	--pbmit-secondary-color: #000000;
+	--pbmit-secondary-color: #0a2d12;
 	--pbmit-secondary-color-rgb: 10, 45, 18;
 	--pbmit-light-color: #f3fbf5;
 	--pbmit-body-color: #f3fbf5;
@@ -28,7 +28,7 @@ INDEX:
 	--pbmit-blackish-color: #1b242e;
 	--pbmit-blackish-color-rgb: 27, 36, 46;
 	--pbmit-link-color-normal: #1b2841;
-	--pbmit-link-color-hover: #197de6;
+	--pbmit-link-color-hover: #8ebb2d;
 	--pbmit-responsive-breakpoint: 1200px;
 
 	--pbmit-body-typography-font-family: "DM Sans", sans-serif;
