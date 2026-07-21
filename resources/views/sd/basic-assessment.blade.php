@@ -48,7 +48,7 @@
 								<p class="pbmit-firstletter">We prepare and manage Basic Assessment Reports (BAR) for projects with limited, predictable impacts. Our team handles public participation and submissions to authorities, ensuring fast, efficient approvals.</p>
 								<p>For complex projects, we deliver full Scoping Reports and Environmental Impact Reports (EIR). We coordinate specialist studies, manage consultations, and streamline the authorisation process. <br>We assist with Water Use Licence Applications under the National Water Act, covering activities such as water abstraction, discharge, or altering watercourses. Our experts compile specialist studies and manage regulatory engagement.<br>We handle borehole registration with the Department of Water and Sanitation (DWS), ensuring compliance with groundwater use regulations. Where necessary, we integrate borehole registration with WULA applications.</p>
 								<div class="pbmit-service-feature-image pbmit-animation-style7">
-									<img src="images/service/service-single-01.png" class="img-fluid w-100" alt="">
+									<img src="images/service/ba.png" class="img-fluid w-100" alt="">
 								</div>
 								<div class="pbmit-custom-heading">
 									<h3 class="pbmit-title">Our Comprehensive Environmental Services</h3>
@@ -245,7 +245,7 @@
 									</div>
 								</div>
 								<div class="service-single-02-img">
-									<img src="images/service/service-single-02.png" class="img-fluid" alt="">
+									<img src="images/service/ba2.png" class="img-fluid" alt="">
 								</div>
 							</div>
 						</div>
@@ -281,7 +281,7 @@
 								</aside>
 								<aside class="widget pbmit-service-ad">
 									<div class="pbmit-widget-ads">
-										<img src="images/ad-img.png" class="img-fluid w-100" alt="">
+										<img src="images/contact.png" class="img-fluid w-100" alt="">
 										<div class="pbmit-service-ads-wrap">
 											<div class="pbmit-service-ads">
 												<div class="pbmit-ads-icon">
@@ -289,7 +289,10 @@
 												</div>
 												<span>Have any Project in Mind? Call us Today !</span>
 												<h3 class="pbmit-ads-call">
-													<a href="tel:+0(123)456-789">+0(123)456-789</a>
+													<a href="tel:+27(71) 723-4937"><h6 class="text-white">South Africa</h6>+27 71 723 4937</a>
+												</h3>
+												<h3 class="pbmit-ads-call">
+													<a href="tel:+233(24) 514-2414"><h6 class="text-white">Ghana</h6>+233 24 514 2414</a>
 												</h3>
 											</div>
 										</div>

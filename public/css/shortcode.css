@@ -2324,7 +2324,7 @@
 /*  09 - Title Bar
 /*----------------------------------------*/
 .pbmit-title-bar-wrapper{
-	background-image: url(../images/bg/titlebar-bg.jpg);
+	background-image: url(../images/bg/ea.png);
 	background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -2345,7 +2345,7 @@
 	overflow: hidden;
 }
 .pbmit-title-bar-wrapper2{
-	background-image: url(../images/bg/titlebar-bg.jpg);
+	background-image: url(../images/bg/about.jpg);
 	background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -2354,6 +2354,62 @@
     z-index: 1;
 	overflow: hidden;
 }
+
+.pbmit-title-bar-wrapper3{
+	background-image: url(../images/bg/em.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+	position: relative;
+    z-index: 1;
+	overflow: hidden;
+}
+
+.pbmit-title-bar-wrapper4{
+	background-image: url(../images/bg/FS.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+	position: relative;
+    z-index: 1;
+	overflow: hidden;
+}
+
+.pbmit-title-bar-wrapper5{
+	background-image: url(../images/bg/Geochemistry.png);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+	position: relative;
+    z-index: 1;
+	overflow: hidden;
+}
+
+.pbmit-title-bar-wrapper6{
+	background-image: url(../images/bg/ERT.png);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+	position: relative;
+    z-index: 1;
+	overflow: hidden;
+}
+
+.pbmit-title-bar-wrapper7{
+	background-image: url(../images/bg/GIS-and-Drone-Survey.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+	position: relative;
+    z-index: 1;
+	overflow: hidden;
+}
+
 .pbmit-title-bar-wrapper:after{
 	content: "";
     position: absolute;

@@ -4,7 +4,7 @@
 @section('content')
 	
 	<!-- Title Bar -->
-	<div class="pbmit-title-bar-wrapper">
+	<div class="pbmit-title-bar-wrapper2">
 		<div class="container">
 			<div class="pbmit-title-bar-content">
 				<div class="pbmit-title-bar-content-inner">
@@ -108,13 +108,8 @@
 									</ul>
 								</div>
 								<div class="col-md-6 about-02-img-col">
-									<img src="images/homepage-1/about-02.png" class="rounded-4 img-fluid" alt="">
+									<img src="images/homepage-1/Original.png" class="rounded-4 img-fluid" height="200" width="200" alt="">
 								</div>
-							</div>
-							<div class="mt-4">
-								<a href="our-team.html" class="pbmit-btn">
-									<span class="pbmit-button-text">View all Team</span>
-								</a>
 							</div>
 						</div>
 					</div>

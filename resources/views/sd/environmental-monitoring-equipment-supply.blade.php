@@ -1,145 +1,381 @@
-@extends('layouts.other-layout')
+@extends('layouts.top-layout')
+@section('title', 'Environmental Monitoring Equipment Supply')
+@section('description', 'Environmental Monitoring Equipment Supply and Installations')
 @section('content')
-<!-- Banner One Start
-	====================================================-->
-	<div class="page-banner overlay-secondery-8" style="background: url(images/background/em.jpg) bottom center/ cover; padding: 150px 0;">
-		<div class="container">
-			<div class="banner-text text-center">
-				<div class="row">
-					<div class="col-md-12 col-lg-12">
-						<h1 class="position-relative va-c-line-w50-h1-primary pb-15 mb-20 color-white">Environmental Monitoring Equipment Supply</h1>
-						<nav class="breadcrumb-one d-table m-auto bg-white px-30" aria-label="breadcrumb">
-						  <ol class="breadcrumb bg-transparent mb-0">
-						    <li class="breadcrumb-item"><a href="/">Home</a></li>
-						    <li class="breadcrumb-item active" aria-current="page">Environmental Monitoring Equipment Supply Details</li>
-						  </ol>
-						</nav>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Banner One End
-	====================================================-->
-	<!-- Start Service Details
-	====================================================-->
-	<div class="py-80">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-lg-8 col-xl-9">
-					<div class="service-details-one">
-						<div class="row">
-							<div class="col-md-12 col-lg-12">
-								<div class="owl-carousel service-slider owl-nav-style-one position-relative">
-									<img src="/images/services/groundwater-monitoring-solutions.jpg" alt="images">
-									<img src="/images/services/monitoring_system.jpg" alt="images">
 
-								</div>
+
+
+<!-- Title Bar -->
+		<div class="pbmit-title-bar-wrapper3">
+			<div class="container">
+				<div class="pbmit-title-bar-content">
+					<div class="pbmit-title-bar-content-inner">
+						<div class="pbmit-tbar">
+							<div class="pbmit-tbar-inner container">
+								<h1 class="pbmit-tbar-subtitle"> Service</h1>
+								<h1 class="pbmit-tbar-title"> Environmental Monitoring Equipment Supply</h1>
 							</div>
-							<div class="col-md-12 col-lg-12">
-								<div class="text-area">
-									<h3 class="my-30 color-secondery">Environmental Monitoring Equipment Supply and Installations</h3>
-									<p class="mb-15">Sefcom Environmental Consulting (SEC) provides integrated supply, installation, and technical support for advanced environmental and scientific measurement systems.</p>
-									<p> Through partnerships with reputable international manufacturers, SEC delivers high-quality instrumentation solutions supporting environmental monitoring, water governance, mining operations, infrastructure development, and regulatory compliance programmes.</p>
-									<p>We go beyond product supply to provide technical specification, system integration, installation, commissioning, data configuration, and digital monitoring support, ensuring instruments are fully operational, compliant, and aligned with project objectives.</p>
-									<h5 class="pt-4">Core Instrumentation & Monitoring Solutions:</h5>
-
-									<ul class="pt-2">
-                                        <h5 class="color-secondery">Core Instrumentation Solutions Soil & Land Monitoring</h5>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Soil moisture and infiltration instruments</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Erosion and sediment monitoring systems</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Soil quality and sampling equipment</li>
-
-
-										<h5 class="color-secondery pt-2">Surface & Groundwater Monitoring</h5>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Flow meters and gauging stations</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Water level sensors and borehole data loggers</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Multiparameter water quality sondes</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Pump testing and aquifer monitoring equipment</li>
-                                        <li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Real-time telemetry-enabled monitoring systems</li>
-
-
-                                        <h5 class="color-secondery pt-2">Environmental & Air Quality Monitoring</h5>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Ambient air quality stations (PM10 / PM2.5)</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Dust, gas, noise, and vibration monitoring systems</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Emissions monitoring instrumentation</li>
-
-
-										<h5 class="color-secondery pt-2">Meteorological & Climate Monitoring</h5>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Automated weather stations (AWS)</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Rainfall, wind, solar radiation, and evaporation sensors</li>
-
-                                        <h5 class="color-secondery pt-2">Digital Monitoring & Data Integration</h5>
-                                        <p>SEC supports:</p>
-                                        <li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Data logger configuration and telemetry systems</li>
-                                        <li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Cloud-based data acquisition platforms</li>
-                                        <li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Environmental monitoring software deployment</li>
-                                        <li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Real-time compliance dashboards</li>
-                                        <li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>ESG-aligned reporting integration</li>
-
-                                        <h5 class="color-secondery pt-2">Installation & Technical Support</h5>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Technical specification and procurement advisory</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>On-site installation and commissioning</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>System integration and performance verification</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Training and capacity building</li>
-                                        <li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Calibration and maintenance coordination</li>
-
-
-									</ul>
-								</div>
+						</div>
+						<div class="pbmit-breadcrumb">
+							<div class="pbmit-breadcrumb-inner">
+								<span>
+									<a title="" href="#" class="home"><span>GET</span></a>
+								</span>
+								<i class="pbmit-base-icon-arrow-right-2"></i>
+								<span>
+									<a title="" href="#"><span>Environmental Monitoring Equipment Supply</span></a>
+								</span>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-12 col-lg-4 col-xl-3">
-					<div class="side-menu-list bg-gray">
-						<ul>
-							<li><a class="active" href="#">Environmental Monitoring Equipment Supply</a></li>
-							<li><a  href="/feasibility-studies">Feasibility and Project Development</a></li>
-							<li><a  href="/hydrology">Hydrology</a></li>
-							<li><a  href="/hydrogeology">Hydrogeology</a></li>
-							<li><a  href="/soil-science">Soil Science</a></li>
-							<li><a  href="/geotechnical-services">Geotechnical Services</a></li>
-							<li><a  href="/environmental-assessment">Environmental Assessment</a></li>
-							<li><a  href="/hydropower">Hydropower</a></li>
-							<li><a  href="/infrastructure">Infrastructure</a></li>
-							<li><a  href="/energy">Energy & Energy Transition</a></li>
-							<li><a  href="/gis-and-drone-survey">GIS & Drone Survey </a></li>
-							<li><a  href="/integrated-data-science-and-ai-modelling">Integrated Data Science & AI Modelling </a></li>
-							<li><a  href="/laboratory-services">Laboratory Services</a></li>
-                            <li><a  href="/geochemistry">Geochemistry</a></li>
-						</ul>
-					</div>
-					<div class="side-contact py-40 px-30 mt-30 bg-gray">
-						<h3 class="position-relative va-lb-line-w50-h2-primary pb-15 mb-30 color-secondery">Contact Us</h3>
-						<ul class="color-dark icon-primary link-list-b-15">
-							<h6><b>South Africa</b></h6>
-							<li><span class="mr-20"><i class="fa fa-phone" aria-hidden="true"></i></span>  +27 71 723 4937</li>
-							<h6><b>Ghana</b></h6>
-							<li><span class="mr-20"><i class="fa fa-phone" aria-hidden="true"></i></span>  +233 24 514 2414</li>
-							<h6><b>South Africa</b></h6>
-							<li class="m-0"><span class="mr-20"><i class="fa fa-map-marker" aria-hidden="true"></i></span>28 Lemoendoring Street, Weltevredenpark, 1709, Johannesburg, South Africa</li>
-							<h6><b>Ghana</b></h6>
-							<li class="m-0"><span class="mr-20"><i class="fa fa-map-marker" aria-hidden="true"></i></span>35 HFC Estate, Community 25, Tema, Ghana</li>
-						</ul>
-					</div>
-
-				</div>
-			</div>
+				</div>  
+			</div> 
 		</div>
-	</div>
-	<!-- End Service Details
-	====================================================-->
+        <!-- Title Bar End-->
 
+        <!-- Page Content -->
+        <div class="page-content" id="page">
 
+            <!-- Service Details --> 
+            <section class="site-content service-details">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9 service-left-col" id="primary">
+							<div class="pbmit-entry-content">
+								<div class="pbmit-custom-heading">
+									<h3 class="pbmit-title">Description Of The Service</h3>
+								</div>
+								<p class="pbmit-firstletter">GET provides integrated supply, installation, and technical support for advanced environmental and scientific measurement systems.</p>
+								<p>Through partnerships with reputable international manufacturers, GET delivers high-quality instrumentation solutions supporting environmental monitoring, water governance, mining operations, infrastructure development, and regulatory compliance programmes.<br>We go beyond product supply to provide technical specification, system integration, installation, commissioning, data configuration, and digital monitoring support, ensuring instruments are fully operational, compliant, and aligned with project objectives.</p>
+								
+								<div class="pbmit-service-feature-image pbmit-animation-style7">
+									<img src="images/service/em1.jpg" class="img-fluid w-100" alt="">
+								</div>
+								<h5 class="pb-3">Core Instrumentation & Monitoring Solutions:</h5>
+								<div class="pbmit-custom-heading">
+									<h3 class="pbmit-title">Core Instrumentation Solutions Soil & Land Monitoring</h3>
+								</div>
+								<div class="row pb-3">
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Soil Moisture and Infiltration Instruments</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Erosion and Sediment Monitoring Systems</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Soil Quality and Sampling Equipment</span>
+											</li>
+										</ul>
+									</div>
+									<!--<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Decision-support Modelling and Scenario Testing</span>
+											</li>
+											
+										</ul>
+									</div>-->
+								</div>
+                                <div class="pbmit-custom-heading">
+									<h3 class="pbmit-title">Surface & Groundwater Monitoring</h3>
+								</div>
+								<div class="row pb-3">
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Flow Meters and Gauging Stations</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Water level sensors and borehole data loggers</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Multiparameter water quality sondes</span>
+											</li>
+										</ul>
+									</div>
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Pump testing and aquifer monitoring equipment</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Real-time telemetry-enabled monitoring systems</span>
+											</li>
+											
+											
+										</ul>
+									</div>
+								</div>
+								<div class="pbmit-custom-heading">
+									<h3 class="pbmit-title">Environmental & Air Quality Monitoring</h3>
+								</div>
+								<div class="row pb-3">
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Ambient air quality stations <b>(PM10 / PM2.5)</b></span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Dust, gas, noise, and vibration monitoring systems</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Emissions monitoring instrumentation</span>
+											</li>
+										</ul>
+									</div>
+									<!--<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Support to Legal Teams During Regulatory Disputes</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Technical Expert Input for Environmental Litigation</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Preparation of Expert Reports and Affidavits</span>
+											</li>
+											
+										</ul>
+									</div>-->
+								</div>
+								<div class="pbmit-custom-heading">
+									<h3 class="pbmit-title">Meteorological & Climate Monitoring</h3>
+								</div>
+								<div class="row pb-3">
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Automated weather stations <b>(AWS)</b></span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Rainfall, wind, solar radiation, and evaporation sensors</span>
+											</li>
+											<!--<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Licence Condition Compliance Audits</span>
+											</li>-->
+										</ul>
+									</div>
+									<!--<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Regulatory Engagement and Authority Liaison</span>
+											</li>
+											
+										</ul>
+									</div>-->
+								</div>
+								<div class="pbmit-custom-heading">
+									<h3 class="pbmit-title">Digital Monitoring & Data Integration</h3>
+									<p>GET Supports:</p>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Data logger configuration and telemetry systems</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Cloud-based data acquisition platforms</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Environmental monitoring software deployment</span>
+											</li>
+										</ul>
+									</div>
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Real-time compliance dashboards</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">ESG-aligned reporting integration</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="pbmit-custom-heading pt-3">
+									<h3 class="pbmit-title">Installation & Technical Support</h3>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Technical specification and procurement advisory</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">On-site installation and commissioning</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">System integration and performance verification</span>
+											</li>
+										</ul>
+									</div>
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Training and capacity building</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Calibration and maintenance coordination</span>
+											</li>
+											
+										</ul>
+									</div>
+									
+								</div>
+								<div class="service-single-02-img">
+									<img src="images/service/em.jpg" class="img-fluid" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 service-right-col sidebar" id="secondary">
+							<aside class="service-sidebar">
+								<aside class="widget post-list">
+									<h2 class="widget-title">Other Services</h2>
+									<div class="all-post-list">
+										<ul>
+											<li class="post-active"><a href="#">Environmental Monitoring Equipment Supply</a></li>
+											<li><a href="/environmental-assessment">Environmental Assessment</a></li>
+											<li><a href="/energy">Energy & Energy Transition</a></li>
+											<li><a href="/basic-assessment">Basic Assessment Scoping and EIAS, WULA and Borehole Registration</a></li>
+											<li><a href="/feasibility-studies">Feasibility and Project Development</a></li>
+                                            <li><a href="/hydrology">Hydrology</a></li>
+                                            <li><a href="/hydrogeology">Hydrogeology</a></li>
+                                            <li><a href="/geochemistry">Geochemistry</a></li>
+                                            <li><a href="/soil-science">Soil Science</a></li>
+                                            <li><a href="/geotechnical-services">Geotechnical Services</a></li>
+                                            <li><a href="/hydropower">Hydropower</a></li>
+                                            <li><a href="/infrastructure">Infrastructure</a></li>
+                                            <li><a href="/gis-and-drone-survey">GIS & Drone Survey</a></li>
+                                            <li><a href="/integrated-data-science-and-ai-modelling">Integrated Data Science & AI Modelling</a></li>
+                                            <li><a href="/laboratory-services">Laboratory Services</a></li>
+                                            <li><a href="/groundwater">Groundwater</a></li>
+                                            <li><a href="/geophysics-ert">Geophysics/Electrical Resistivity Tomography(ERT)</a></li>
+                                            <li><a href="/risk-assessment">Risk Assessment and Management at Petroleum Hydrocarbon Contaminated Sites</a></li>
+                                            <li><a href="/surface-water-hydrological-processes">Surface Water/Hydrological Processes</a></li>
+                                            
 
+										</ul>
+									</div>
+								</aside>
+								<aside class="widget pbmit-service-ad">
+									<div class="pbmit-widget-ads">
+										<img src="images/contact.png" class="img-fluid w-100" alt="">
+										<div class="pbmit-service-ads-wrap">
+											<div class="pbmit-service-ads">
+												<div class="pbmit-ads-icon">
+													<i class="pbmit-base-icon-phone-call"></i>
+												</div>
+												<span>Have any Project in Mind? Call us Today !</span>
+												<h3 class="pbmit-ads-call">
+													<a href="tel:+27(71) 723-4937"><h6 class="text-white">South Africa</h6>+27 71 723 4937</a>
+												</h3>
+												<h3 class="pbmit-ads-call">
+													<a href="tel:+233(24) 514-2414"><h6 class="text-white">Ghana</h6>+233 24 514 2414</a>
+												</h3>
+											</div>
+										</div>
+									</div>
+								</aside>
+								
+							</aside>
+						</div>
+					</div>
+				</div>
+            </section>
+            <!-- Service Details End -->
 
-
-
-
-
+        </div>
+        <!-- Page Content End -->
 
 @include('layouts.footer')
-@endsection
-@section('javascript')
 @endsection

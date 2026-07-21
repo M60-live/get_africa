@@ -46,7 +46,7 @@
 									<h3 class="pbmit-title">Description Of The Service</h3>
 								</div>
 								<p class="pbmit-firstletter">GET provides integrated advisory and technical services supporting energy development and the global transition toward low-carbon, climate-resilient systems. We work across renewable and conventional energy sectors, helping clients navigate regulatory complexity, environmental risk, water resource constraints, and ESG performance requirements.</p>
-								<p>Our approach integrates environmental intelligence, water governance, regulatory alignment, and data-driven analytics to deliver technically robust and regulator-ready energy solutions. SEC supports projects across the full lifecycle, from early-stage feasibility through permitting, construction, operation, and closure, ensuring alignment with decarbonisation strategies, sustainable development objectives, and climate resilience frameworks.</p>
+								<p>Our approach integrates environmental intelligence, water governance, regulatory alignment, and data-driven analytics to deliver technically robust and regulator-ready energy solutions. GET supports projects across the full lifecycle, from early-stage feasibility through permitting, construction, operation, and closure, ensuring alignment with decarbonisation strategies, sustainable development objectives, and climate resilience frameworks.</p>
 								
 								<div class="pbmit-service-feature-image pbmit-animation-style7">
 									<img src="images/service/Energy & Energy Transition.jpg" class="img-fluid w-100" alt="">
@@ -155,7 +155,7 @@
 												<span class="pbmit-icon-list-icon">
 													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
 												</span>
-												<span class="pbmit-icon-list-text">Compliance Risk Analysis and Governance Advisory</b></span>
+												<span class="pbmit-icon-list-text">Compliance Risk Analysis and Governance Advisory</span>
 											</li>
 										</ul>
 									</div>
@@ -293,7 +293,10 @@
 												</div>
 												<span>Have any Project in Mind? Call us Today !</span>
 												<h3 class="pbmit-ads-call">
-													<a href="tel:+0(123)456-789">+0(123)456-789</a>
+													<a href="tel:+27(71) 723-4937"><h6 class="text-white">South Africa</h6>+27 71 723 4937</a>
+												</h3>
+												<h3 class="pbmit-ads-call">
+													<a href="tel:+233(24) 514-2414"><h6 class="text-white">Ghana</h6>+233 24 514 2414</a>
 												</h3>
 											</div>
 										</div>

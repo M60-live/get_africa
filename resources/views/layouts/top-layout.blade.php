@@ -80,7 +80,7 @@
                                     <div class="pbmit-logo-area">
                                         <div class="site-branding">
                                             <h1 class="site-title">
-                                                <a href="index.html">
+                                                <a href="/">
                                                     <img class="logo-img" src="images/Original.png" alt="GET Logo">
                                                 </a>
                                             </h1>
