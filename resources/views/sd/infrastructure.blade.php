@@ -1,146 +1,344 @@
-@extends('layouts.other-layout')
+@extends('layouts.top-layout')
+@section('title', 'Infrastructure')
+@section('description', 'Sustainable Urban Infrastructure')
 @section('content')
-<!-- Banner One Start
-	====================================================-->
-	<div class="page-banner overlay-secondery-8" style="background: url(images/background/Infrastructure.jpg) bottom center/ cover; padding: 150px 0;">
-		<div class="container">
-			<div class="banner-text text-center">
-				<div class="row">
-					<div class="col-md-12 col-lg-12">
-						<h1 class="position-relative va-c-line-w50-h1-primary pb-15 mb-20 color-white">Infrastructure</h1>
-						<nav class="breadcrumb-one d-table m-auto bg-white px-30" aria-label="breadcrumb">
-						  <ol class="breadcrumb bg-transparent mb-0">
-						    <li class="breadcrumb-item"><a href="/">Home</a></li>
-						    <li class="breadcrumb-item active" aria-current="page">Infrastructure Details</li>
-						  </ol>
-						</nav>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Banner One End
-	====================================================-->
-	<!-- Start Service Details
-	====================================================-->
-	<div class="py-80">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-lg-8 col-xl-9">
-					<div class="service-details-one">
-						<div class="row">
-							<div class="col-md-12 col-lg-12">
-								<div class="owl-carousel service-slider owl-nav-style-one position-relative">
-									<img src="/images/services/Infrastructure Page.png" alt="images">
-									<img src="/images/services/Infrastructure.png" alt="images">
 
-								</div>
+
+
+<!-- Title Bar -->
+		<div class="pbmit-title-bar-wrapper10">
+			<div class="container">
+				<div class="pbmit-title-bar-content">
+					<div class="pbmit-title-bar-content-inner">
+						<div class="pbmit-tbar">
+							<div class="pbmit-tbar-inner container">
+								<h1 class="pbmit-tbar-subtitle"> Service</h1>
+								<h1 class="pbmit-tbar-title">Infrastructure</h1>
 							</div>
-							<div class="col-md-12 col-lg-12">
-								<div class="text-area">
-									<h3 class="my-30 color-secondery">Sustainable Urban Infrastructure</h3>
-									<p class="mb-15">Sefcom Environmental Consulting (SEC) delivers climate-resilient infrastructure advisory and engineering solutions aligned with global decarbonisation, energy transition, and circular economy principles.</p>
-									<p> We support governments, developers, mining companies, and industrial operators in designing and implementing infrastructure that is environmentally sustainable, socially responsible, regulator-ready, and ESG-aligned. Our approach integrates environmental governance, climate analytics, water resource intelligence, and engineering optimisation to ensure infrastructure systems remain resilient under future climate and operational pressures.</p>
-									<p>SEC operates at the intersection of sustainability strategy, regulatory compliance, and technical delivery, turning high-level ESG commitments into practical, implementable infrastructure solutions.</p>
-									<h5 class="pt-4">Infrastructure Services:</h5>
-
-									<ul class="pt-2">
-                                        <h5 class="color-secondery">Planning, Permitting & Impact Assessment</h5>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Environmental & Social Impact Assessments (ESIA)</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Regulatory pathway development and permitting support</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Integrated project coordination and compliance frameworks</li>
-
-
-										<h5 class="color-secondery pt-2">Climate Resilience & Adaptation</h5>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Climate risk and vulnerability assessments</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Infrastructure adaptation planning</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Flood, drought, and extreme-event resilience modelling</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Climate-aligned infrastructure design inputs</li>
-
-                                        <h5 class="color-secondery pt-2">ESG & Transactional Advisory</h5>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>ESG materiality assessments</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Sustainability strategy integration</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Due diligence and investment risk screening</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Performance benchmarking and reporting support</li>
-
-
-										<h5 class="color-secondery pt-2">Smart Mobility & Sustainable Transport</h5>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Sustainable transport planning</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Infrastructure optimisation for low-carbon mobility</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Integration of smart and digital monitoring systems</li>
-
-
-										<h5 class="color-secondery pt-2">Water Resources & Natural Capital</h5>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Water resource studies and engineering design</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Catchment-scale planning and modelling</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Natural capital valuation and ecosystem service integration</li>
-
-                                        <h5 class="color-secondery pt-2">Sustainable Waste & Circular Economy</h5>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Waste management strategy and optimisation</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Circular economy planning and resource recovery</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Infrastructure for sustainable materials management</li>
-
-                                        <h5 class="color-secondery pt-2">Process & Civil Engineering Advisory</h5>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Infrastructure systems design review</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Engineering integration and optimisation</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Construction oversight and technical assurance</li>
-
-
-									</ul>
-								</div>
+						</div>
+						<div class="pbmit-breadcrumb">
+							<div class="pbmit-breadcrumb-inner">
+								<span>
+									<a title="" href="#" class="home"><span>GET</span></a>
+								</span>
+								<i class="pbmit-base-icon-arrow-right-2"></i>
+								<span>
+									<a title="" href="#"><span>Infrastructure</span></a>
+								</span>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-12 col-lg-4 col-xl-3">
-					<div class="side-menu-list bg-gray">
-						<ul>
-							<li><a class="active" href="#">Infrastructure</a></li>
-							<li><a  href="/feasibility-studies">Feasibility and Project Development</a></li>
-							<li><a  href="/hydrology">Hydrology</a></li>
-							<li><a  href="/hydrogeology">Hydrogeology</a></li>
-							<li><a  href="/soil-science">Soil Science</a></li>
-							<li><a  href="/geotechnical-services">Geotechnical Services</a></li>
-							<li><a  href="/environmental-assessment">Environmental Assessment</a></li>
-							<li><a  href="/hydropower">Hydropower</a></li>
-							<li><a  href="/energy">Energy & Energy Transition</a></li>
-							<li><a  href="/gis-and-drone-survey">GIS & Drone Survey</a></li>
-							<li><a  href="/integrated-data-science-and-ai-modelling">Integrated Data Science & AI Modelling</a></li>
-							<li><a  href="/laboratory-services">Laboratory Services</a></li>
-							<li><a  href="/environmental-monitoring-equipment-supply">Environmental Monitoring Equipment Supply</a></li>
-                            <li><a  href="/geochemistry">Geochemistry</a></li>
-						</ul>
-					</div>
-					<div class="side-contact py-40 px-30 mt-30 bg-gray">
-						<h3 class="position-relative va-lb-line-w50-h2-primary pb-15 mb-30 color-secondery">Contact Us</h3>
-						<ul class="color-dark icon-primary link-list-b-15">
-							<h6><b>South Africa</b></h6>
-							<li><span class="mr-20"><i class="fa fa-phone" aria-hidden="true"></i></span>  +27 71 723 4937</li>
-							<h6><b>Ghana</b></h6>
-							<li><span class="mr-20"><i class="fa fa-phone" aria-hidden="true"></i></span>  +233 24 514 2414</li>
-							<h6><b>South Africa</b></h6>
-							<li class="m-0"><span class="mr-20"><i class="fa fa-map-marker" aria-hidden="true"></i></span>28 Lemoendoring Street, Weltevredenpark, 1709, Johannesburg, South Africa</li>
-							<h6><b>Ghana</b></h6>
-							<li class="m-0"><span class="mr-20"><i class="fa fa-map-marker" aria-hidden="true"></i></span>35 HFC Estate, Community 25, Tema, Ghana</li>
-						</ul>
-					</div>
-
-				</div>
-			</div>
+				</div>  
+			</div> 
 		</div>
-	</div>
-	<!-- End Service Details
-	====================================================-->
+        <!-- Title Bar End-->
 
+        <!-- Page Content -->
+        <div class="page-content" id="page">
 
+            <!-- Service Details --> 
+            <section class="site-content service-details">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9 service-left-col" id="primary">
+							<div class="pbmit-entry-content">
+								<div class="pbmit-custom-heading">
+									<h3 class="pbmit-title">Description Of The Service</h3>
+								</div>
+								<p class="pbmit-firstletter">GET delivers climate-resilient infrastructure advisory and engineering solutions aligned with global decarbonisation, energy transition, and circular economy principles.</p>
+								<p>We support governments, developers, mining companies, and industrial operators in designing and implementing infrastructure that is environmentally sustainable, socially responsible, regulator-ready, and ESG-aligned.<br>Our approach integrates environmental governance, climate analytics, water resource intelligence, and engineering optimisation to ensure infrastructure systems remain resilient under future climate and operational pressures.<br>GET operates at the intersection of sustainability strategy, regulatory compliance, and technical delivery, turning high-level ESG commitments into practical, implementable infrastructure solutions.</p>
+								
+								<div class="pbmit-service-feature-image pbmit-animation-style7">
+									<img src="images/service/Infrastructure.png" class="img-fluid w-100" alt="">
+								</div>
+								<h5 class="pb-3">Infrastructure Services:</h5>
+								<div class="pbmit-custom-heading">
+									<h3 class="pbmit-title">Planning, Permitting & Impact Assessment</h3>
+								</div>
+								<div class="row pb-3">
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Environmental & Social Impact Assessments <b>(ESIA)</b></span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Regulatory pathway development and permitting support</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Integrated project coordination and compliance frameworks</span>
+											</li>
+									
+										</ul>
+									</div>
+								</div>
+                                <div class="pbmit-custom-heading">
+									<h3 class="pbmit-title">Climate Resilience & Adaptation</h3>
+								</div>
+								<div class="row pb-3">
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Climate risk and vulnerability assessments</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Infrastructure adaptation planning</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Flood, drought, and extreme-event resilience modelling</span>
+											</li>
+											
+										</ul>
+									</div>
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Climate-aligned infrastructure design inputs</span>
+											</li>
+											
+										</ul>
+									</div>
+								</div>
+								<div class="pbmit-custom-heading">
+									<h3 class="pbmit-title">ESG & Transactional Advisory</h3>
+								</div>
+								<div class="row pb-3">
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">ESG materiality assessments</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Sustainability strategy integration</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Due diligence and investment risk screening</span>
+											</li>
+										</ul>
+									</div>
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Performance benchmarking and reporting support</span>
+											</li>
+											
+										</ul>
+									</div>
+								</div>
+								<div class="pbmit-custom-heading">
+									<h3 class="pbmit-title">Smart Mobility & Sustainable Transport</h3>
+								</div>
+								<div class="row pb-3">
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Sustainable transport planning</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Infrastructure optimisation for low-carbon mobility</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Integration of smart and digital monitoring systems</span>
+											</li>
+										</ul>
+									</div>
+									
+								</div>
 
+								<div class="pbmit-custom-heading">
+									<h3 class="pbmit-title">Water Resources & Natural Capital</h3>
+								</div>
+								<div class="row pb-3">
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Water resource studies and engineering design</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Catchment-scale planning and modelling</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Natural capital valuation and ecosystem service integration</span>
+											</li>
+											
+										</ul>
+									</div>
+									
+								</div>
 
+								<div class="pbmit-custom-heading">
+									<h3 class="pbmit-title">Sustainable Waste & Circular Economy</h3>
+								</div>
+								<div class="row pb-3">
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Waste management strategy and optimisation</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Circular economy planning and resource recovery</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Infrastructure for sustainable materials management</span>
+											</li>
+											
+										</ul>
+									</div>
+									
+								</div>
 
+								<div class="pbmit-custom-heading">
+									<h3 class="pbmit-title">Process & Civil Engineering Advisory</h3>
+								</div>
+								<div class="row pb-3">
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Infrastructure systems design review</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Engineering integration and optimisation</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Construction oversight and technical assurance</span>
+											</li>
+											
+										</ul>
+									</div>
+									
+								</div>
+								
+								<div class="service-single-02-img">
+									<img src="images/service/Infrastructure Page.png" class="img-fluid" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 service-right-col sidebar" id="secondary">
+							<aside class="service-sidebar">
+								<aside class="widget post-list">
+									<h2 class="widget-title">Other Services</h2>
+									<div class="all-post-list">
+										<ul>
+											<li class="post-active"><a href="#">Infrastructure</a></li> 
+											<li><a href="/hydropower">Hydropower</a></li>
+											<li><a href="/hydrogeology">Hydrogeology</a></li>
+											<li><a href="/gis-and-drone-survey">GIS & Drone Survey</a></li>
+											<li><a href="/geotechnical-services">Geotechnical Services</a></li>
+											<li><a href="/geochemistry">Geochemistry</a></li>
+											<li><a href="/feasibility-studies">Feasibility and Project Development</a></li>
+											<li><a href="/environmental-monitoring-equipment-supply">Environmental Monitoring Equipment Supply</a></li>
+											<li><a href="/environmental-assessment">Environmental Assessment</a></li>
+											<li><a href="/energy">Energy & Energy Transition</a></li>
+											<li><a href="/basic-assessment">Basic Assessment Scoping and EIAS, WULA and Borehole Registration</a></li>
+                                            <li><a href="/hydrology">Hydrology</a></li>
+                                            <li><a href="/soil-science">Soil Science</a></li>                                           
+                                                                       
+                                            <li><a href="/integrated-data-science-and-ai-modelling">Integrated Data Science & AI Modelling</a></li>
+                                            <li><a href="/laboratory-services">Laboratory Services</a></li>                     
+                                            <li><a href="/groundwater">Groundwater</a></li>
+                                            <li><a href="/geophysics-ert">Geophysics/Electrical Resistivity Tomography(ERT)</a></li>
+                                            <li><a href="/risk-assessment">Risk Assessment and Management at Petroleum Hydrocarbon Contaminated Sites</a></li>
+                                            <li><a href="/surface-water-hydrological-processes">Surface Water/Hydrological Processes</a></li>
+										</ul>
+									</div>
+								</aside>
+								<aside class="widget pbmit-service-ad">
+									<div class="pbmit-widget-ads">
+										<img src="images/contact.png" class="img-fluid w-100" alt="">
+										<div class="pbmit-service-ads-wrap">
+											<div class="pbmit-service-ads">
+												<div class="pbmit-ads-icon">
+													<i class="pbmit-base-icon-phone-call"></i>
+												</div>
+												<span>Have any Project in Mind? Call us Today !</span>
+												<h3 class="pbmit-ads-call">
+													<a href="tel:+27(71) 723-4937"><h6 class="text-white">South Africa</h6>+27 71 723 4937</a>
+												</h3>
+												<h3 class="pbmit-ads-call">
+													<a href="tel:+233(24) 514-2414"><h6 class="text-white">Ghana</h6>+233 24 514 2414</a>
+												</h3>
+											</div>
+										</div>
+									</div>
+								</aside>
+								
+							</aside>
+						</div>
+					</div>
+				</div>
+            </section>
+            <!-- Service Details End -->
 
-
-
+        </div>
+        <!-- Page Content End -->
 
 @include('layouts.footer')
-@endsection
-@section('javascript')
 @endsection

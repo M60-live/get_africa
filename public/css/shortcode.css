@@ -2400,7 +2400,106 @@
 }
 
 .pbmit-title-bar-wrapper7{
-	background-image: url(../images/bg/GIS-and-Drone-Survey.jpg);
+	background-image: url(../images/bg/Hydrology.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+	position: relative;
+    z-index: 1;
+	overflow: hidden;
+}
+
+.pbmit-title-bar-wrapper8{
+	background-image: url(../images/bg/Hydro.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+	position: relative;
+    z-index: 1;
+	overflow: hidden;
+}
+
+.pbmit-title-bar-wrapper9{
+	background-image: url(../images/bg/hydropower.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+	position: relative;
+    z-index: 1;
+	overflow: hidden;
+}
+
+.pbmit-title-bar-wrapper10{
+	background-image: url(../images/bg/Infrastructure.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+	position: relative;
+    z-index: 1;
+	overflow: hidden;
+}
+
+.pbmit-title-bar-wrapper11{
+	background-image: url(../images/bg/Integrated-Data-Science-&-AI-Modelling.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+	position: relative;
+    z-index: 1;
+	overflow: hidden;
+}
+
+.pbmit-title-bar-wrapper12{
+	background-image: url(../images/bg/Lab.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+	position: relative;
+    z-index: 1;
+	overflow: hidden;
+}
+
+.pbmit-title-bar-wrapper13{
+	background-image: url(../images/bg/risk.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+	position: relative;
+    z-index: 1;
+	overflow: hidden;
+}
+
+.pbmit-title-bar-wrapper14{
+	background-image: url(../images/bg/Soil.png);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+	position: relative;
+    z-index: 1;
+	overflow: hidden;
+}
+
+.pbmit-title-bar-wrapper15{
+	background-image: url(../images/bg/surface-water.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+	position: relative;
+    z-index: 1;
+	overflow: hidden;
+}
+
+.pbmit-title-bar-wrapper16{
+	background-image: url(../images/bg/contact-us.jpg);
 	background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

@@ -49,20 +49,20 @@
                     <div class="d-flex justify-content-between">
                         <div class="pbmit-pre-header-left">
                             <ul class="pbmit-contact-info">
-                                <li><i class="pbmit-base-icon-headphones"></i> Are you need Support Engineer?<a href="https://solaar-demo.pbminfotech.com/demo2/contact-us/"> Free Consultant</a></li>
+                                <li><i class="pbmit-base-icon-headphones"></i>  Need Support?<a href="/contact-us"> Free Consultant</a></li>
                             </ul>
                         </div>
                         <div class="pbmit-pre-header-right">
                             <ul class="pbmit-contact-info">
                                 <li>
-                                    <a href="mailto:noreply@pbminfotech.com">
-                                        <i class="pbmit-base-icon-email"></i> noreply@pbminfotech.com</a>
+                                    <a href="mailto:info@get.com">
+                                        <i class="pbmit-base-icon-email"></i> info@get.com</a>
                                 </li>
                                 <li>
                                     <i class=" pbmit-base-icon-marker"></i>Los Angeles Gournadi, 1230 Bariasl</li>
                                 <li>
                                     <a href="tel:+(123)1234-567-8901">
-                                        <i class="pbmit-base-icon-phone-call-1"></i>+(123) 1234-567-8901
+                                        <i class="pbmit-base-icon-phone-call-1"></i>+27 71 723 4937
                                     </a>
                                 </li>
                             </ul>
@@ -94,14 +94,8 @@
                                                         <li>
                                                             <a href="/">Home</a>
 														</li>
-                                                        <li class="dropdown">
-                                                            <a href="#">Pages</a>
-                                                            <ul>
-                                                                <li><a href="/about-us">About Us</a></li>
-                                                                <li><a href="faq.html">Faq</a></li>
-                                                                <li><a href="our-team.html">Our Team</a></li>
-                                                                <li><a href="team-member-detail.html">Team Member Detail</a></li>
-                                                            </ul>
+                                                        <li>
+                                                            <a href="/about-us">About Us</a></li>
                                                         </li>
                                                         <li class="dropdown">
                                                             <a href="#">Services</a>
@@ -126,44 +120,6 @@
                                                                 <li><a href="/surface-water-hydrological-processes">Surface Water/Hydrological Processes</a></li>
                                                                 <li><a href="/basic-assessment">Basic Assessment Scoping and EIAS, WULA and Borehole Registration</a></li>
 
-                                                            </ul>
-                                                        </li>
-                                                        <li class="dropdown">
-                                                            <a href="#">Portfolio</a>
-                                                            <ul>
-                                                                <li class="dropdown">
-                                                                    <a href="#">Masonry View</a>
-                                                                    <ul class="sub-menu">
-                                                                        <li><a href="portfolio-m-grid-col-2.html">M Grid Col 2</a></li>
-                                                                        <li><a href="portfolio-m-grid-col-3.html">M Grid Col 3</a></li>
-                                                                        <li><a href="portfolio-m-grid-col-4.html">M Grid Col 4</a></li>
-                                                                        <li><a href="portfolio-m-grid-wide.html">M Grid Wide</a></li>
-                                                                    </ul>
-                                                                </li>
-                                                                <li class="dropdown">
-                                                                    <a href="#">Grid View</a>
-                                                                    <ul class="sub-menu">
-                                                                        <li><a href="portfolio-grid-col-2.html">Grid Col 2</a></li>
-                                                                        <li><a href="portfolio-grid-col-3.html">Grid Col 3</a></li>
-                                                                        <li><a href="portfolio-grid-col-4.html">Grid Col 4</a></li>
-                                                                        <li><a href="portfolio-grid-no-gap.html">Grid No Gap</a></li>
-                                                                    </ul>
-                                                                </li>
-                                                                <li class="dropdown">
-                                                                    <a href="#">Sortable View</a>
-                                                                    <ul class="sub-menu">
-                                                                        <li><a href="portfolio-sortable-grid-col-2.html">Sortable Grid Col 2</a></li>
-                                                                        <li><a href="portfolio-sortable-grid-col-3.html">Sortable Grid Col 3</a></li>
-                                                                        <li><a href="portfolio-sortable-grid-col-4.html">Sortable Grid Col 4</a></li>
-                                                                    </ul>
-                                                                </li>
-                                                                <li class="dropdown">
-                                                                    <a href="#">Single Detail Style</a>
-                                                                    <ul class="sub-menu">
-                                                                        <li><a href="portfolio-detail-style-01.html">Portfolio Detail Style 1</a></li>
-                                                                        <li><a href="portfolio-detail-style-02.html">Portfolio Detail Style 2</a></li>
-                                                                    </ul>
-                                                                </li>
                                                             </ul>
                                                         </li>
                                                         <li>

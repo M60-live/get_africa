@@ -23,12 +23,12 @@
 										</h2>
 										<div class="pbmit-button d-flex">
 											<div class="transform-bottom transform-delay-3">
-												<a href="contact-us.html" class="pbmit-btn">
+												<a href="/contact-us" class="pbmit-btn">
 													<span class="pbmit-button-text">Get Started</span>
 												</a>
 											</div>
 											<div class="ms-xl-4 ms-2 transform-bottom transform-delay-4">
-												<a href="contact-us.html" class="pbmit-btn outline">
+												<a href="/contact-us" class="pbmit-btn outline">
 													<span class="pbmit-button-text">Get a Quote</span>
 												</a>
 											</div>
@@ -81,12 +81,12 @@
 										</h2>
 										<div class="pbmit-button d-flex">
 											<div class="transform-bottom transform-delay-3">
-												<a href="contact-us.html" class="pbmit-btn">
+												<a href="/contact-us" class="pbmit-btn">
 													<span class="pbmit-button-text">Get Started</span>
 												</a>
 											</div>
 											<div class="ms-xl-4 ms-2 transform-bottom transform-delay-4">
-												<a href="contact-us.html" class="pbmit-btn outline">
+												<a href="/contact-us" class="pbmit-btn outline">
 													<span class="pbmit-button-text">Get a Quote</span>
 												</a>
 											</div>
@@ -139,12 +139,12 @@
 										</h2>
 										<div class="pbmit-button d-flex">
 											<div class="transform-bottom transform-delay-3">
-												<a href="contact-us.html" class="pbmit-btn">
+												<a href="/contact-us" class="pbmit-btn">
 													<span class="pbmit-button-text">Get Started</span>
 												</a>
 											</div>
 											<div class="ms-xl-4 ms-2 transform-bottom transform-delay-4">
-												<a href="contact-us.html" class="pbmit-btn outline">
+												<a href="/contact-us" class="pbmit-btn outline">
 													<span class="pbmit-button-text">Get a Quote</span>
 												</a>
 											</div>

@@ -1,143 +1,363 @@
-@extends('layouts.other-layout')
+@extends('layouts.top-layout')
+@section('title', 'Hydropower')
+@section('description', 'Hydropower Support and Engineering')
 @section('content')
-<!-- Banner One Start
-	====================================================-->
-	<div class="page-banner overlay-secondery-8" style="background: url(images/background/hydropower.jpg) bottom center/ cover; padding: 150px 0;">
-		<div class="container">
-			<div class="banner-text text-center">
-				<div class="row">
-					<div class="col-md-12 col-lg-12">
-						<h1 class="position-relative va-c-line-w50-h1-primary pb-15 mb-20 color-white">Hydropower</h1>
-						<nav class="breadcrumb-one d-table m-auto bg-white px-30" aria-label="breadcrumb">
-						  <ol class="breadcrumb bg-transparent mb-0">
-						    <li class="breadcrumb-item"><a href="/">Home</a></li>
-						    <li class="breadcrumb-item active" aria-current="page">Hydropower Details</li>
-						  </ol>
-						</nav>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Banner One End
-	====================================================-->
-	<!-- Start Service Details
-	====================================================-->
-	<div class="py-80">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-lg-8 col-xl-9">
-					<div class="service-details-one">
-						<div class="row">
-							<div class="col-md-12 col-lg-12">
-								<div class="owl-carousel service-slider owl-nav-style-one position-relative">
-									<img src="/images/services/Hydropower.jpg" alt="images">
-									<img src="/images/services/Hydropower Page.jpg" alt="images">
 
-								</div>
+
+
+<!-- Title Bar -->
+		<div class="pbmit-title-bar-wrapper9">
+			<div class="container">
+				<div class="pbmit-title-bar-content">
+					<div class="pbmit-title-bar-content-inner">
+						<div class="pbmit-tbar">
+							<div class="pbmit-tbar-inner container">
+								<h1 class="pbmit-tbar-subtitle"> Service</h1>
+								<h1 class="pbmit-tbar-title">Hydropower</h1>
 							</div>
-							<div class="col-md-12 col-lg-12">
-								<div class="text-area">
-									<h3 class="my-30 color-secondery">Hydropower Support and Engineering</h3>
-									<p class="mb-15">Sefcom Environmental Consulting (SEC) delivers integrated hydropower advisory and design services that support the development of sustainable, climate-resilient clean energy infrastructure.</p>
-									<p> As global energy systems transition toward low-carbon solutions, hydropower remains a critical component of energy security, water resource optimisation, and socio-economic development. SEC provides multidisciplinary expertise across the full hydropower project lifecycle, from concept and feasibility through design, construction, commissioning, and operational optimisation.</p>
-									<p>We integrate engineering, environmental governance, regulatory compliance, and advanced modelling to deliver technically robust, financially informed, and ESG-aligned hydropower solutions.</p>
-									<h5 class="pt-4">Hydropower Services:</h5>
-
-									<ul class="pt-2">
-                                        <h5 class="color-secondery">Project Development & Design</h5>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Concept development and prefeasibility studies</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Full feasibility assessments</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Basic and detailed engineering design</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Preparation of tender documentation</li>
-                                        <li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Design review and independent technical assurance</li>
-                                        <li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Site supervision and construction oversight</li>
-                                        <li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Commissioning support</li>
-
-										<h5 class="color-secondery pt-2">Multidisciplinary Engineering Integration</h5>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Geological and geotechnical investigations</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Hydrology and hydraulic modelling</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Civil and structural design review</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Tunnelling and underground works advisory</li>
-                                        <li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Mechanical and electrical systems integration</li>
-
-                                        <h5 class="color-secondery pt-2">Regulatory, Environmental & Social Advisory</h5>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Environmental & Social Impact Assessments (ESIA)</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Regulatory and institutional framework alignment</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Health and safety coordination</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Social risk and stakeholder considerations</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Compliance and governance advisory</li>
-
-										<h5 class="color-secondery pt-2">Digital Engineering & Advanced Modelling</h5>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>VDC / BIM (Virtual Design & Construction / Building Information Modelling)</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Climate change impact modelling</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>CFD (Computational Fluid Dynamics) analysis</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Sediment transport and reservoir management modelling</li>
-                                        <li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Dam safety and performance analytics</li>
-
-										<h5 class="color-secondery pt-2">Commercial & Operational Advisory</h5>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Due diligence and independent technical review</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Asset valuation and performance benchmarking</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Master planning and portfolio optimisation</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Monitoring, instrumentation, and survey systems</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Operation & Maintenance advisory</li>
-										<li><i class="bi bi-bullseye pr-2" style="color:#4BAF47;"></i>Training and capacity building</li>
-
-									</ul>
-								</div>
+						</div>
+						<div class="pbmit-breadcrumb">
+							<div class="pbmit-breadcrumb-inner">
+								<span>
+									<a title="" href="#" class="home"><span>GET</span></a>
+								</span>
+								<i class="pbmit-base-icon-arrow-right-2"></i>
+								<span>
+									<a title="" href="#"><span>Hydropower</span></a>
+								</span>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-12 col-lg-4 col-xl-3">
-					<div class="side-menu-list bg-gray">
-						<ul>
-							<li><a class="active" href="#">Hydropower</a></li>
-							<li><a  href="/feasibility-studies">Feasibility and Project Development</a></li>
-							<li><a  href="/hydrology">Hydrology</a></li>
-							<li><a  href="/hydrogeology">Hydrogeology</a></li>
-							<li><a  href="/soil-science">Soil Science</a></li>
-							<li><a  href="/geotechnical-services">Geotechnical Services</a></li>
-							<li><a  href="/environmental-assessment">Environmental Assessment</a></li>
-							<li><a  href="/infrastructure">Infrastructure</a></li>
-							<li><a  href="/energy">Energy & Energy Transition</a></li>
-							<li><a  href="/gis-and-drone-survey">GIS & Drone Survey</a></li>
-							<li><a  href="/integrated-data-science-and-ai-modelling">Integrated Data Science & AI Modelling</a></li>
-							<li><a  href="/laboratory-services">Laboratory Services</a></li>
-							<li><a  href="/environmental-monitoring-equipment-supply">Environmental Monitoring Equipment Supply</a></li>
-                            <li><a  href="/geochemistry">Geochemistry</a></li>
-						</ul>
-					</div>
-					<div class="side-contact py-40 px-30 mt-30 bg-gray">
-						<h3 class="position-relative va-lb-line-w50-h2-primary pb-15 mb-30 color-secondery">Contact Us</h3>
-						<ul class="color-dark icon-primary link-list-b-15">
-							<h6><b>South Africa</b></h6>
-							<li><span class="mr-20"><i class="fa fa-phone" aria-hidden="true"></i></span>  +27 71 723 4937</li>
-							<h6><b>Ghana</b></h6>
-							<li><span class="mr-20"><i class="fa fa-phone" aria-hidden="true"></i></span>  +233 24 514 2414</li>
-							<h6><b>South Africa</b></h6>
-							<li class="m-0"><span class="mr-20"><i class="fa fa-map-marker" aria-hidden="true"></i></span>28 Lemoendoring Street, Weltevredenpark, 1709, Johannesburg, South Africa</li>
-							<h6><b>Ghana</b></h6>
-							<li class="m-0"><span class="mr-20"><i class="fa fa-map-marker" aria-hidden="true"></i></span>35 HFC Estate, Community 25, Tema, Ghana</li>
-						</ul>
-					</div>
-
-				</div>
-			</div>
+				</div>  
+			</div> 
 		</div>
-	</div>
-	<!-- End Service Details
-	====================================================-->
+        <!-- Title Bar End-->
 
+        <!-- Page Content -->
+        <div class="page-content" id="page">
 
+            <!-- Service Details --> 
+            <section class="site-content service-details">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9 service-left-col" id="primary">
+							<div class="pbmit-entry-content">
+								<div class="pbmit-custom-heading">
+									<h3 class="pbmit-title">Description Of The Service</h3>
+								</div>
+								<p class="pbmit-firstletter">GET delivers integrated hydropower advisory and design services that support the development of sustainable, climate-resilient clean energy infrastructure.</p>
+								<p>As global energy systems transition toward low-carbon solutions, hydropower remains a critical component of energy security, water resource optimisation, and socio-economic development. GET provides multidisciplinary expertise across the full hydropower project lifecycle, from concept and feasibility through design, construction, commissioning, and operational optimisation.<br>We integrate engineering, environmental governance, regulatory compliance, and advanced modelling to deliver technically robust, financially informed, and ESG-aligned hydropower solutions.</p>
+								
+								<div class="pbmit-service-feature-image pbmit-animation-style7">
+									<img src="images/service/Hydropower.jpg" class="img-fluid w-100" alt="">
+								</div>
+								<h5 class="pb-3">Hydropower Services:</h5>
+								<div class="pbmit-custom-heading">
+									<h3 class="pbmit-title">Project Development & Design</h3>
+								</div>
+								<div class="row pb-3">
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Concept development and prefeasibility studies</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Full feasibility assessments</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Basic and detailed engineering design</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Preparation of tender documentation</span>
+											</li>
+										</ul>
+									</div>
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Design review and independent technical assurance</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Site supervision and construction oversight</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Commissioning support</span>
+											</li>
+											
+										</ul>
+									</div>
+								</div>
+                                <div class="pbmit-custom-heading">
+									<h3 class="pbmit-title">Multidisciplinary Engineering Integration</h3>
+								</div>
+								<div class="row pb-3">
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Geological and geotechnical investigations</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Hydrology and hydraulic modelling</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Civil and structural design review</span>
+											</li>
+											
+										</ul>
+									</div>
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Tunnelling and underground works advisory</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Mechanical and electrical systems integration</span>
+											</li>
+											
+										</ul>
+									</div>
+								</div>
+								<div class="pbmit-custom-heading">
+									<h3 class="pbmit-title">Regulatory, Environmental & Social Advisory</h3>
+								</div>
+								<div class="row pb-3">
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Environmental & Social Impact Assessments <b>(ESIA)</b></span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Regulatory and institutional framework alignment</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Health and safety coordination</span>
+											</li>
+										</ul>
+									</div>
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Social risk and stakeholder considerations</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Compliance and governance advisory</span>
+											</li>
+											
+										</ul>
+									</div>
+								</div>
+								<div class="pbmit-custom-heading">
+									<h3 class="pbmit-title">Digital Engineering & Advanced Modelling</h3>
+								</div>
+								<div class="row pb-3">
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">VDC / BIM (Virtual Design & Construction / Building Information Modelling)</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Climate change impact modelling</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">CFD (Computational Fluid Dynamics) analysis</span>
+											</li>
+										</ul>
+									</div>
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Sediment transport and reservoir management modelling</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Dam safety and performance analytics</span>
+											</li>
+											
+										</ul>
+									</div>
+									
+								</div>
 
+								<div class="pbmit-custom-heading">
+									<h3 class="pbmit-title">Commercial & Operational Advisory</h3>
+								</div>
+								<div class="row pb-3">
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Due diligence and independent technical review</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Asset valuation and performance benchmarking</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Master planning and portfolio optimisation</span>
+											</li>
+											
+										</ul>
+									</div>
+									<div class="col-md-6">
+										<ul class="list-group">
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Monitoring, instrumentation, and survey systems</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Operation & Maintenance advisory</span>
+											</li>
+											<li class="list-group-item">
+												<span class="pbmit-icon-list-icon">
+													<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+												</span>
+												<span class="pbmit-icon-list-text">Training and capacity building</span>
+											</li>
+											
+										</ul>
+									</div>
+									
+								</div>
+								
+								<div class="service-single-02-img">
+									<img src="images/service/Hydropower Page.jpg" class="img-fluid" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 service-right-col sidebar" id="secondary">
+							<aside class="service-sidebar">
+								<aside class="widget post-list">
+									<h2 class="widget-title">Other Services</h2>
+									<div class="all-post-list">
+										<ul>
+											<li class="post-active"><a href="#">Hydropower</a></li>
+											<li><a href="/hydrogeology">Hydrogeology</a></li>
+											<li><a href="/gis-and-drone-survey">GIS & Drone Survey</a></li>
+											<li><a href="/geotechnical-services">Geotechnical Services</a></li>
+											<li><a href="/geochemistry">Geochemistry</a></li>
+											<li><a href="/feasibility-studies">Feasibility and Project Development</a></li>
+											<li><a href="/environmental-monitoring-equipment-supply">Environmental Monitoring Equipment Supply</a></li>
+											<li><a href="/environmental-assessment">Environmental Assessment</a></li>
+											<li><a href="/energy">Energy & Energy Transition</a></li>
+											<li><a href="/basic-assessment">Basic Assessment Scoping and EIAS, WULA and Borehole Registration</a></li>
+                                            <li><a href="/hydrology">Hydrology</a></li>
+                                            <li><a href="/soil-science">Soil Science</a></li>                                           
+                                            <li><a href="/infrastructure">Infrastructure</a></li>                            
+                                            <li><a href="/integrated-data-science-and-ai-modelling">Integrated Data Science & AI Modelling</a></li>
+                                            <li><a href="/laboratory-services">Laboratory Services</a></li>                     
+                                            <li><a href="/groundwater">Groundwater</a></li>
+                                            <li><a href="/geophysics-ert">Geophysics/Electrical Resistivity Tomography(ERT)</a></li>
+                                            <li><a href="/risk-assessment">Risk Assessment and Management at Petroleum Hydrocarbon Contaminated Sites</a></li>
+                                            <li><a href="/surface-water-hydrological-processes">Surface Water/Hydrological Processes</a></li>
+										</ul>
+									</div>
+								</aside>
+								<aside class="widget pbmit-service-ad">
+									<div class="pbmit-widget-ads">
+										<img src="images/contact.png" class="img-fluid w-100" alt="">
+										<div class="pbmit-service-ads-wrap">
+											<div class="pbmit-service-ads">
+												<div class="pbmit-ads-icon">
+													<i class="pbmit-base-icon-phone-call"></i>
+												</div>
+												<span>Have any Project in Mind? Call us Today !</span>
+												<h3 class="pbmit-ads-call">
+													<a href="tel:+27(71) 723-4937"><h6 class="text-white">South Africa</h6>+27 71 723 4937</a>
+												</h3>
+												<h3 class="pbmit-ads-call">
+													<a href="tel:+233(24) 514-2414"><h6 class="text-white">Ghana</h6>+233 24 514 2414</a>
+												</h3>
+											</div>
+										</div>
+									</div>
+								</aside>
+								
+							</aside>
+						</div>
+					</div>
+				</div>
+            </section>
+            <!-- Service Details End -->
 
-
-
-
-
+        </div>
+        <!-- Page Content End -->
 
 @include('layouts.footer')
-@endsection
-@section('javascript')
 @endsection
