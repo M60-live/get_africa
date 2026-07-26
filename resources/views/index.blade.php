@@ -19,7 +19,7 @@
 											GET Provides
 										</h5>
 										<h2 class="pbmit-slider-title transform-left transform-delay-2">
-											Geo-Hydraulic  
+											Geo-Hydraulic
 										</h2>
 										<div class="pbmit-button d-flex">
 											<div class="transform-bottom transform-delay-3">
@@ -38,19 +38,19 @@
 												<ul class="list-group">
 													<li class="list-group-item">
 														<span class="pbmit-icon-list-icon">
-															<i class="pbmit-base-icon-check-solid"></i>						
+															<i class="pbmit-base-icon-check-solid"></i>
 														</span>
 														<span class="pbmit-icon-list-text">Professional</span>
 													</li>
 													<li class="list-group-item">
 														<span class="pbmit-icon-list-icon">
-															<i class="pbmit-base-icon-check-solid"></i>						
+															<i class="pbmit-base-icon-check-solid"></i>
 														</span>
 														<span class="pbmit-icon-list-text">Friendly</span>
 													</li>
 													<li class="list-group-item">
 														<span class="pbmit-icon-list-icon">
-															<i class="pbmit-base-icon-check-solid"></i>						
+															<i class="pbmit-base-icon-check-solid"></i>
 														</span>
 														<span class="pbmit-icon-list-text">Convenient</span>
 													</li>
@@ -96,19 +96,19 @@
 												<ul class="list-group">
 													<li class="list-group-item">
 														<span class="pbmit-icon-list-icon">
-															<i class="pbmit-base-icon-check-solid"></i>						
+															<i class="pbmit-base-icon-check-solid"></i>
 														</span>
 														<span class="pbmit-icon-list-text">Professional</span>
 													</li>
 													<li class="list-group-item">
 														<span class="pbmit-icon-list-icon">
-															<i class="pbmit-base-icon-check-solid"></i>						
+															<i class="pbmit-base-icon-check-solid"></i>
 														</span>
 														<span class="pbmit-icon-list-text">Friendly</span>
 													</li>
 													<li class="list-group-item">
 														<span class="pbmit-icon-list-icon">
-															<i class="pbmit-base-icon-check-solid"></i>						
+															<i class="pbmit-base-icon-check-solid"></i>
 														</span>
 														<span class="pbmit-icon-list-text">Convenient</span>
 													</li>
@@ -154,19 +154,19 @@
 												<ul class="list-group">
 													<li class="list-group-item">
 														<span class="pbmit-icon-list-icon">
-															<i class="pbmit-base-icon-check-solid"></i>						
+															<i class="pbmit-base-icon-check-solid"></i>
 														</span>
 														<span class="pbmit-icon-list-text">Professional</span>
 													</li>
 													<li class="list-group-item">
 														<span class="pbmit-icon-list-icon">
-															<i class="pbmit-base-icon-check-solid"></i>						
+															<i class="pbmit-base-icon-check-solid"></i>
 														</span>
 														<span class="pbmit-icon-list-text">Friendly</span>
 													</li>
 													<li class="list-group-item">
 														<span class="pbmit-icon-list-icon">
-															<i class="pbmit-base-icon-check-solid"></i>						
+															<i class="pbmit-base-icon-check-solid"></i>
 														</span>
 														<span class="pbmit-icon-list-text">Convenient</span>
 													</li>
@@ -185,7 +185,7 @@
 	<!-- Page Content -->
 <div class="page-content">
 
-<!-- Service Start --> 
+<!-- Service Start -->
 <section class="service-section-two">
 	<div class="container">
 		<div class="pbmit-heading-subheading text-center">
@@ -358,13 +358,13 @@
 								<ul class="list-group mb-4">
 									<li class="list-group-item">
 										<span class="pbmit-icon-list-icon">
-											<i class="pbmit-base-icon-tick-1"></i>						
+											<i class="pbmit-base-icon-tick-1"></i>
 										</span>
 										<span class="pbmit-icon-list-text">Expertise</span>
 									</li>
 									<li class="list-group-item">
 										<span class="pbmit-icon-list-icon">
-											<i class="pbmit-base-icon-tick-1"></i>						
+											<i class="pbmit-base-icon-tick-1"></i>
 										</span>
 										<span class="pbmit-icon-list-text">Collaboration</span>
 									</li>
@@ -392,12 +392,12 @@
 												</div>
 												<span class="pbmit-fid-title">Trusted customers around the world</span>
 											</div>
-										</div>			
+										</div>
 									</div>
 								</div>
 								<div class="pbmit-element-timeline-style-2">
 									<div class="pbmit-timeline">
-										<div class="swiper-slider" data-autoplay="false" data-loop="false" data-dots="false" data-arrows="true" data-columns="1" data-margin="30" data-effect="slide">					
+										<div class="swiper-slider" data-autoplay="false" data-loop="false" data-dots="false" data-arrows="true" data-columns="1" data-margin="30" data-effect="slide">
 											<div class="swiper-wrapper">
 												<!-- Slide1 -->
 												<div class="swiper-slide pbmit-timeline-wrapper">
@@ -445,7 +445,7 @@
 					<div class="pbminfotech-ele-fid-style-2">
 						<div class="pbmit-fld-contents">
 							<div class="pbmit-fld-wrap">
-								<div class="pbmit-fid-icon-title">		
+								<div class="pbmit-fid-icon-title">
 									<span class="pbmit-fid-title">Years experience<br>working</span>
 								</div>
 								<h4 class="pbmit-fid-inner">
@@ -463,7 +463,7 @@
 					<div class="pbminfotech-ele-fid-style-2">
 						<div class="pbmit-fld-contents">
 							<div class="pbmit-fld-wrap">
-								<div class="pbmit-fid-icon-title">		
+								<div class="pbmit-fid-icon-title">
 									<span class="pbmit-fid-title">Happy<br>customers</span>
 								</div>
 								<h4 class="pbmit-fid-inner">
@@ -481,7 +481,7 @@
 					<div class="pbminfotech-ele-fid-style-2">
 						<div class="pbmit-fld-contents">
 							<div class="pbmit-fld-wrap">
-								<div class="pbmit-fid-icon-title">		
+								<div class="pbmit-fid-icon-title">
 									<span class="pbmit-fid-title">Successful<br>projects</span>
 								</div>
 								<h4 class="pbmit-fid-inner">
@@ -499,7 +499,7 @@
 					<div class="pbminfotech-ele-fid-style-2">
 						<div class="pbmit-fld-contents">
 							<div class="pbmit-fld-wrap">
-								<div class="pbmit-fid-icon-title">		
+								<div class="pbmit-fid-icon-title">
 									<span class="pbmit-fid-title">Awards<br>achievement</span>
 								</div>
 								<h4 class="pbmit-fid-inner">
@@ -542,7 +542,7 @@
 										<div class="pbmit-featured-wrapper pbmit-hover-img">
 											<div class="pbmit-featured-img-wrapper">
 												<div class="pbmit-featured-wrapper">
-													<img src="images/homepage-2/team/team-img-01.jpg" class="img-fluid" alt="">
+													<img src="images/team/John_Kalala.jpg" class="img-fluid" alt="">
 												</div>
 											</div>
 										</div>
@@ -561,7 +561,7 @@
 										<div class="pbmit-featured-wrapper pbmit-hover-img">
 											<div class="pbmit-featured-img-wrapper">
 												<div class="pbmit-featured-wrapper">
-													<img src="images/homepage-2/team/team-img-02.jpg" class="img-fluid" alt="">
+													<img src="images/team/Guy_Mulenda.jpg" class="img-fluid" alt="">
 												</div>
 											</div>
 										</div>
@@ -748,7 +748,7 @@
 		</div>
 	</div>
 	<div class="container-fluid p-0">
-		<div class="swiper-slider pbminfotech-gap-0px" data-arrows-class="portfolio-arrow" data-autoplay="true" data-loop="true" data-dots="false" data-arrows="true" data-columns="4" data-margin="0" data-effect="slide">					
+		<div class="swiper-slider pbminfotech-gap-0px" data-arrows-class="portfolio-arrow" data-autoplay="true" data-loop="true" data-dots="false" data-arrows="true" data-columns="4" data-margin="0" data-effect="slide">
 			<div class="swiper-wrapper">
 				<!-- Slide1 -->
 				<article class="pbmit-portfolio-style-1 swiper-slide">

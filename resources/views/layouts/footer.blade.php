@@ -38,35 +38,36 @@
     <div class="pbmit-footer-widget-area">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-lg-3 pbmit-footer-widget-col-1">
+                <div class="col-md-6 col-lg-4">
                     <aside class="widget">
-                        <h2 class="widget-title">Our Location</h2>
+                        <h2 class="widget-title">Head Quarters</h2>
                         <div class="pbmit-contact-widget-lines">
-                            <div class="pbmit-contact-widget-line pbmit-base-icon-location">2972 Westheimer Rd. Santa Ana, Illinois 85486</div>
+                            <div class="pbmit-contact-widget-line pbmit-base-icon-location">28 Lemoendoring Street, Weltevredenpark, 1709, Johannesburg, South Africa</div>
                         </div>
                     </aside>
                 </div>
-                <div class="col-md-6 col-lg-3 pbmit-footer-widget-col-2">
+                <div class="col-md-6 col-lg-4">
                     <aside class="widget">
-                        <h2 class="widget-title">Say Hello</h2>
+                        <h2 class="widget-title">Branches</h2>
                         <div class="pbmit-contact-widget-lines">
-                            
-                            <div class="pbmit-contact-widget-line pbmit-base-icon-phone">South Africa: <br>+27 71 723 4937</div>
-                            <div class="pbmit-contact-widget-line pbmit-base-icon-phone">Ghana:<br> +233 24 514 2414</div>
                             <div class="pbmit-contact-widget-line pbmit-base-icon-email">info@get.com</div>
+                            <div class="pbmit-contact-widget-line pbmit-base-icon-email">Johannesburg: +27 71 723 4937</div>
+                            <div class="pbmit-contact-widget-line pbmit-base-icon-email">Kwa Zulu Natal: +27 78 888 9764</div>
+                            <div class="pbmit-contact-widget-line pbmit-base-icon-email">Ghana: +233 24 514 2414</div>
                         </div>
                     </aside>
                 </div>
-                <div class="col-md-6 col-lg-3 pbmit-footer-widget-col-3">
+                <div class="col-md-6 col-lg-4">
                     <aside class="widget pbmit-two-column-menu">
                         <h2 class="widget-title">Our Company</h2>
                         <ul class="menu">
                             <li><a href="/about-us">About Us</a></li>
                             <li><a href="/contact-us">Contact Us</a></li>
+                            <li><a href="/team">Team</a></li>
                         </ul>
                     </aside>
                 </div>
-                
+
             </div>
         </div>
     </div>

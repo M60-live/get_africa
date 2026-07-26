@@ -59,11 +59,12 @@
                                         <i class="pbmit-base-icon-email"></i> info@get.com</a>
                                 </li>
                                 <li>
-                                    <i class=" pbmit-base-icon-marker"></i>Los Angeles Gournadi, 1230 Bariasl</li>
+                                    <i class=" pbmit-base-icon-marker"></i>28 Lemoendoring Street, Johannesburg, South Africa</li>
                                 <li>
-                                    <a href="tel:+(123)1234-567-8901">
-                                        <i class="pbmit-base-icon-phone-call-1"></i>+27 71 723 4937
-                                    </a>
+                                    <a href="tel:(+27) 33 391 0707">
+                                        <i class="pbmit-base-icon-phone-call-1"></i>+27 33 391 0707
+                                    </a> |
+                                    <a href="tel:(+27) 78 884 5263">+27 78 884 5263</a>
                                 </li>
                             </ul>
                         </div>
@@ -94,9 +95,6 @@
                                                         <li>
                                                             <a href="/">Home</a>
 														</li>
-                                                        <li>
-                                                            <a href="/about-us">About Us</a></li>
-                                                        </li>
                                                         <li class="dropdown">
                                                             <a href="#">Services</a>
                                                             <ul>
@@ -121,6 +119,9 @@
                                                                 <li><a href="/basic-assessment">Basic Assessment Scoping and EIAS, WULA and Borehole Registration</a></li>
 
                                                             </ul>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/about-us">About</a></li>
                                                         </li>
                                                         <li>
                                                             <a href="/contact-us">Contact Us</a>
@@ -174,7 +175,7 @@
                 </div>
             </div>
 		</header>
-	
+
 		@yield('content')
 
 
