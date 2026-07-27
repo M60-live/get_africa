@@ -386,7 +386,7 @@
 													</div>
 													<h4 class="pbmit-fid-inner">
 														<span class="pbmit-fid-before"></span>
-														<span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits" data-from="0" data-to="2386" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">2386</span>
+														<span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits" data-from="0" data-to="86" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">2386</span>
 														<span class="pbmit-fid"><span>+</span></span>
 													</h4>
 												</div>
