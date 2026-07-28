@@ -38,7 +38,7 @@
 					<div class="col-md-12 col-xl-6" data-aos="fade-up" data-aos-duration="800">
 						<div class="about-one-leftbox">
 							<div class="about-img text-end">
-								<img src="images/homepage-1/about-01.png" class="img-fluid" alt="">
+								<img src="images/homepage-1/about-01.jpg" class="img-fluid" alt="">
 							</div>
 							<div class="spinner-box">
 								<div class="pbmit-spinner pbmit-spinner-box-style-1">
@@ -70,8 +70,10 @@
 								<h4 class="pbmit-subtitle">Why Choose us</h4>
 								<h2  class="pbmit-title">Leading Environmentalist In The Industry</h2>
 							</div>
-							<p class="pbmit-firstletter">GET are specialist in environmental and water resource advisory firm providing integrated environmental governance, regulatory compliance, hydrological, hydrogeological, geochemical expertise, and advanced data-driven solutions.</p>
-							<p>provider of groundwater supply solutions and hydrogeological investigations, serving clients across a wide range of industries.</p>
+							<p class="pbmit-firstletter"><b>GET (Geo-Hydraulic and Environmental Technology)</b> is a leading consulting and engineering company providing integrated solutions in hydrogeology, hydrology, geochemistry, environmental management, mine water management, geotechnical investigations, and digital environmental intelligence.</p>
+							<p>With operations across Southern, Central, East and West Africa, GET Africa partners with mining companies, governments, development agencies, industries, financial institutions, and infrastructure developers to deliver innovative, science-based solutions that enable responsible resource development and sustainable environmental stewardship.</p>
+							<p>Founded on decades of combined technical expertise, GET brings together internationally recognised specialists in hydrogeology, environmental science, engineering, geochemistry, GIS, data analytics, and mine water management to solve complex water and environmental challenges throughout the project lifecycle—from exploration and feasibility through operations, closure, and post-closure.</p>
+							<p>Our approach integrates:</p>
 							<div class="row align-items-center">
 								<div class="col-md-6 list-group-col">
 									<ul class="list-group">
@@ -111,6 +113,7 @@
 									<img src="images/homepage-1/Original.png" class="rounded-4 img-fluid" height="200" width="200" alt="">
 								</div>
 							</div>
+							<p class="pt-3">We position ourselves at the interGETtion of environmental science and data intelligence, delivering solutions that are technically robust, regulator-ready, and decision-focused.</p>
 						</div>
 					</div>
 				</div>
@@ -118,11 +121,419 @@
 		</section>
 	<!-- About Start -->
 
+	<!-- Service Details --> 
+	<section class="site-content service-details">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9 service-left-col" id="primary">
+					<div class="pbmit-entry-content">
+						<div class="pbmit-custom-heading">
+							<h3 class="pbmit-title">Core Environmental & Water Resource Services</h3>
+						</div><div class="row pb-3">
+							<div class="col-md-6">
+								<ul class="list-group">
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Hydrological and Hydrogeological Assessment and Modelling</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Integrated Water Use Licence (IWUL) Applications & Audits</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Water Stewardship Strategy (AWS, ICMM)</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Water Conservation & Water Demand Management (WC/WDM) Plans</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Integrated Water & Waste Management Plans (IWWMP)</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Weather Station Installation and Management</span>
+									</li>
+							
+								</ul>
+							</div>
+							<div class="col-md-6">
+								<ul class="list-group">
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Stormwater & Pollution Control Design Reviews</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Regulatory Environmental Compliance Audits (DWS, ACE, Mining Code)</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Acid Rock Drainage (ARD/AMD) Risk Assessment & Geochemical Modelling</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Mine Water Management & Closure Water Planning</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Geophysical Investigations</span>
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+						<div class="pbmit-custom-heading">
+							<h3 class="pbmit-title">Environmental Data Science & Analytics</h3>
+							<p>We provide advanced data-driven solutions for environmental governance, water management, and ESG performance optimisation.</p>
+						</div>
+						<div class="row pb-3">
+							<p>Services Include:</p>
+							<div class="col-md-6">
+								<ul class="list-group">
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Environmental data analytics & trend modelling</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Statistical water quality trend analysis</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Time-series forecasting</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Hydrological, hydrogeological and geochemical predictive modelling</span>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-6">
+								<ul class="list-group">
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Climate risk analytics and rainfall-runoff modelling</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Scenario analysis for water balance optimisation</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Environmental KPI performance benchmarking</span>
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+						<div class="pbmit-custom-heading">
+							<h3 class="pbmit-title">Power BI Development & Executive Dashboards</h3>
+							<p>We design interactive, decision-support dashboards for environmental, operational, and governance reporting.</p>
+						</div>
+						<div class="row pb-3">
+							<p>Services:</p>
+							<div class="col-md-6">
+								<ul class="list-group">
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Executive Water Management Dashboards</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">ICMM / ESG performance dashboards</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Water Balance Dashboards</span>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-6">
+								<ul class="list-group">
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Automated regulatory reporting dashboards</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Integrated mine water balance visualization tools</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Real-time compliance alert dashboards</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row pb-3">
+							<p>Specialisation:</p>
+							<div class="col-md-6">
+								<ul class="list-group">
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Mining operations</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Water utilities</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Industrial processing plants</span>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-6">
+								<ul class="list-group">
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">ESG reporting teams</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Regulatory compliance units</span>
+									</li>
+									
+								</ul>
+							</div>
+							
+						</div>
+						<div class="pbmit-custom-heading">
+							<h3 class="pbmit-title">Machine Learning Applications for Environmental Systems</h3>
+							<p>We apply machine learning techniques to improve prediction, anomaly detection, and operational optimisation.</p>
+						</div>
+						<div class="row pb-3">
+							<p>Use Cases:</p>
+							<div class="col-md-6">
+								<ul class="list-group">
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Predictive modelling</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Early warning systems for water quality non-conformances</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Leak detection in reticulation systems</span>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-6">
+								<ul class="list-group">
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Groundwater level prediction modelling</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Risk scoring for pollution incidents</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Predictive maintenance analytics for water infrastructure</span>
+									</li>
+									
+									
+								</ul>
+							</div>
+							
+						</div>
 
-
-
-
-
+						<div class="pbmit-custom-heading">
+							<h3 class="pbmit-title">Artificial Intelligence (AI) for Environmental Governance</h3>
+						</div>
+						<div class="row pb-3">
+							<p>AI Applications:</p>
+							<div class="col-md-6">
+								<ul class="list-group">
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Hydrological and hydrogeological assessment</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Intelligent compliance monitoring systems</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Automated anomaly detection in water quality datasets</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Natural language processing for regulatory reporting</span>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-6">
+								<ul class="list-group">
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">AI-based environmental risk classification</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Climate resilience scenario modelling</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">ESG performance optimisation algorithms</span>
+									</li>
+									
+								</ul>
+							</div>
+							
+						</div>
+						<div class="pbmit-custom-heading">
+							<h3 class="pbmit-title">Digital Transformation</h3>
+							<p>We support organisations transitioning from manual environmental reporting to automated, digital governance systems.</p>
+						</div>
+						<div class="row pb-3">
+							<p>Services:</p>
+							<div class="col-md-6">
+								<ul class="list-group">
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Environmental and water data architecture design</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Data quality assurance systems</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Cloud-based environmental data integration</span>
+									</li>
+									
+								</ul>
+							</div>
+							<div class="col-md-6">
+								<ul class="list-group">
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Digital water balance systems</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Environmental risk dashboards</span>
+									</li>
+									<li class="list-group-item">
+										<span class="pbmit-icon-list-icon">
+											<i class="pbmit-solaar-icon pbmit-solaar-icon-verified"></i>						
+										</span>
+										<span class="pbmit-icon-list-text">Audit-ready compliance tracking systems</span>
+									</li>
+									
+								</ul>
+							</div>
+							
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- Service Details End -->
 
 @include('layouts.footer')
 @endsection

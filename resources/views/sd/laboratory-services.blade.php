@@ -329,13 +329,13 @@
 											<li><a href="/environmental-monitoring-equipment-supply">Environmental Monitoring Equipment Supply</a></li>
 											<li><a href="/environmental-assessment">Environmental Assessment</a></li>
 											<li><a href="/energy">Energy & Energy Transition</a></li>
-											<li><a href="/basic-assessment">Basic Assessment Scoping and EIAS, WULA and Borehole Registration</a></li>
+											
                                             <li><a href="/hydrology">Hydrology</a></li>
                                             <li><a href="/soil-science">Soil Science</a></li>                                     
-                                            <li><a href="/groundwater">Groundwater</a></li>
-                                            <li><a href="/geophysics-ert">Geophysics/Electrical Resistivity Tomography(ERT)</a></li>
-                                            <li><a href="/risk-assessment">Risk Assessment and Management at Petroleum Hydrocarbon Contaminated Sites</a></li>
-                                            <li><a href="/surface-water-hydrological-processes">Surface Water/Hydrological Processes</a></li>
+                                           
+                                            
+                                            
+                                            
 										</ul>
 									</div>
 								</aside>

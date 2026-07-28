@@ -49,7 +49,7 @@
 								<p>Our expertise spans the full mining lifecycle, from exploration and feasibility through operations and closure, with particular specialisation in Acid Rock Drainage (ARD), Acid Mine Drainage (AMD), and mine waste geochemistry. We support projects across base and precious metals, coal, lithium, iron ore, mineral sands, and industrial minerals.<br>GET integrates laboratory testing, field investigations, geochemical modelling, and data-driven risk analysis to develop defensible, regulator-ready solutions for complex geochemical challenges.</p>
 								
 								<div class="pbmit-service-feature-image pbmit-animation-style7">
-									<img src="images/service/Geochemistry Page.png" class="img-fluid w-100" alt="">
+									<img src="images/service/Geochemistry Page.jpg" class="img-fluid w-100" alt="">
 								</div>
 								<h5 class="pb-3">Geochemical Assessment Services:</h5>
 								<div class="pbmit-custom-heading">
@@ -229,7 +229,7 @@
 											<li><a href="/environmental-monitoring-equipment-supply">Environmental Monitoring Equipment Supply</a></li>
 											<li><a href="/environmental-assessment">Environmental Assessment</a></li>
 											<li><a href="/energy">Energy & Energy Transition</a></li>
-											<li><a href="/basic-assessment">Basic Assessment Scoping and EIAS, WULA and Borehole Registration</a></li>
+											
                                             <li><a href="/hydrology">Hydrology</a></li>
                                             <li><a href="/hydrogeology">Hydrogeology</a></li>
                                             
@@ -240,10 +240,10 @@
                                             <li><a href="/gis-and-drone-survey">GIS & Drone Survey</a></li>
                                             <li><a href="/integrated-data-science-and-ai-modelling">Integrated Data Science & AI Modelling</a></li>
                                             <li><a href="/laboratory-services">Laboratory Services</a></li>                     
-                                            <li><a href="/groundwater">Groundwater</a></li>
-                                            <li><a href="/geophysics-ert">Geophysics/Electrical Resistivity Tomography(ERT)</a></li>
-                                            <li><a href="/risk-assessment">Risk Assessment and Management at Petroleum Hydrocarbon Contaminated Sites</a></li>
-                                            <li><a href="/surface-water-hydrological-processes">Surface Water/Hydrological Processes</a></li>
+                                           
+                                            
+                                            
+                                            
                                             
 
 										</ul>

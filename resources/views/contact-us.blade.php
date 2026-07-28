@@ -16,7 +16,7 @@
 					<div class="pbmit-breadcrumb">
 						<div class="pbmit-breadcrumb-inner">
 							<span>
-								<a title="" href="#" class="home"><span>GET</span></a>
+								<a title="" href="/" class="home"><span>GET</span></a>
 							</span>
 							<i class="pbmit-base-icon-arrow-right-2"></i>
 							<span><span class="post-root post post-post current-item"> Contact Us</span></span>
@@ -59,9 +59,7 @@
 								</div>
 								<div class="pbmit-ihbox-contents">
 									<h2 class="pbmit-element-title">Mail Us 24/7</h2>
-									<div class="pbmit-heading-desc">info@yourdomain.com
-										help@yourdomain.com
-									</div>
+									<div class="pbmit-heading-desc">info@get-africa.com</div>
 								</div>
 							</div>
 						</div>
@@ -75,8 +73,17 @@
 									</div>
 								</div>
 								<div class="pbmit-ihbox-contents">
-									<h2 class="pbmit-element-title">Our Location</h2>
-									<div class="pbmit-heading-desc">85 Preston, Inglewood, Maine 98380, Hoofddorp Noord- 2132</div>
+									<h2 class="pbmit-element-title">South Africa</h2>
+									<div class="pbmit-heading-desc">28 Lemoendoring Street, Weltevredenpark, 1709, Johannesburg, South Africa</div>
+									<div class="pbmit-heading-desc">25 Trichy Road, Pietermaritzburg, 3201, KwaZulu-Natal, South Africa</div>
+								</div>
+								<div class="pbmit-ihbox-contents">
+									<h2 class="pbmit-element-title">Democratic Republic of Congo (DRC)</h2>
+									<div class="pbmit-heading-desc">34778, Av John Kalala, C/Annexe, V/Lubumbashie, Katanga, DRC</div>
+								</div>
+								<div class="pbmit-ihbox-contents">
+									<h2 class="pbmit-element-title">Ghana</h2>
+									<div class="pbmit-heading-desc">35 HFC Estate, Community 25, Tema, Ghana</div>
 								</div>
 							</div>
 						</div>
@@ -91,7 +98,7 @@
 								</div>
 								<div class="pbmit-ihbox-contents">
 									<h2 class="pbmit-element-title">Contact us 24/7</h2>
-									<div class="pbmit-heading-desc">South Africa: +27 71 723 4937 <br> Ghana: +233 24 514 2414</div>
+									<div class="pbmit-heading-desc">South Africa: +27 71 723 4937 / +27 78 884 5263 <br> Ghana: +233 24 514 2414</div>
 								</div>
 							</div>
 						</div>
@@ -132,7 +139,7 @@
 										<div class="pbmit-ihbox-contents">
 											<div class="pbmit-heading-desc">Answers to 100+ Questions.</div>
 											<h2 class="pbmit-element-title">
-												<a class="pbmit-button-inner" href="faq.html">
+												<a class="pbmit-button-inner" href="#">
 													<span class="pbmit-button-icon">Explore Faq’s</span>
 												</a>
 											</h2>
@@ -145,9 +152,9 @@
 					<div class="col-md-12 col-xl-8 contact-form-right-col">
 						<div class="contact-form-right-box pbmit-bg-color-white">
 							<div class="pbmit-custom-heading">
-								<h2 class="pbmit-title">Send a message to staff</h2>
+								<h2 class="pbmit-title">Send a message to our team</h2>
 							</div>
-							<p class="pb-2">Your email address will not be published. Required fields are marked *</p>
+							<p class="pb-2">Please Enter Your Details Below</p>
 							<form class="contact-form" method="post" id="contact-form" action="send.php">
 								<div class="row">
 									<div class="col-md-6">

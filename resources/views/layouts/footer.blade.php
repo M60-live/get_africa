@@ -63,7 +63,7 @@
                         <ul class="menu">
                             <li><a href="/about-us">About Us</a></li>
                             <li><a href="/contact-us">Contact Us</a></li>
-                            <li><a href="/team">Team</a></li>
+                            <li><a href="#">Team</a></li>
                         </ul>
                     </aside>
                 </div>

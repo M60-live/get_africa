@@ -56,12 +56,3 @@ Route::view('/gis-and-drone-survey', 'sd/gis-and-drone-survey');
 
 Route::view('/integrated-data-science-and-ai-modelling', 'sd/integrated-data-science-and-ai-modelling');
 
-Route::view('/basic-assessment', 'sd/basic-assessment');
-
-Route::view('/geophysics-ert', 'sd/geophysics-ert');
-
-Route::view('/groundwater', 'sd/groundwater');
-
-Route::view('/risk-assessment', 'sd/risk-assessment');
-
-Route::view('/surface-water-hydrological-processes', 'sd/surface-water-hydrological-processes');
