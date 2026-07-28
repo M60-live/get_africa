@@ -2345,7 +2345,7 @@
 	overflow: hidden;
 }
 .pbmit-title-bar-wrapper2{
-	background-image: url(../images/bg/about.jpg);
+	background-image: url(../images/bg/about-us.jpg);
 	background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -2500,6 +2500,17 @@
 
 .pbmit-title-bar-wrapper16{
 	background-image: url(../images/bg/contact-us.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+	position: relative;
+    z-index: 1;
+	overflow: hidden;
+}
+
+.pbmit-title-bar-wrapper17{
+	background-image: url(../images/bg/geo-tech.jpg);
 	background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
