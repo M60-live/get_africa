@@ -119,7 +119,7 @@
                                                             </ul>
                                                         </li>
                                                         <li>
-                                                            <a href="/about-us">About</a></li>
+                                                            <a href="/about-us">About Us</a></li>
                                                         </li>
                                                         <li>
                                                             <a href="/contact-us">Contact Us</a>

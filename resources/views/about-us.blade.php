@@ -122,10 +122,10 @@
 	<!-- About Start -->
 
 	<!-- Service Details --> 
-	<section class="site-content service-details">
+	<section class="section-xl pt-0">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-9 service-left-col" id="primary">
+				<div class="col-12 service-left-col" id="primary">
 					<div class="pbmit-entry-content">
 						<div class="pbmit-custom-heading">
 							<h3 class="pbmit-title">Core Environmental & Water Resource Services</h3>

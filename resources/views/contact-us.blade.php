@@ -73,13 +73,14 @@
 									</div>
 								</div>
 								<div class="pbmit-ihbox-contents">
-									<h2 class="pbmit-element-title">South Africa</h2>
-									<div class="pbmit-heading-desc">28 Lemoendoring Street, Weltevredenpark, 1709, Johannesburg, South Africa</div>
-									<div class="pbmit-heading-desc">25 Trichy Road, Pietermaritzburg, 3201, KwaZulu-Natal, South Africa</div>
+									<h2 class="pbmit-element-title">Johannesburg</h2>
+									<div class="pbmit-heading-desc">28 Lemoendoring Street, Weltevredenpark, 1709</div>
+									<h2 class="pbmit-element-title">KwaZulu-Natal</h2>
+									<div class="pbmit-heading-desc">25 Trichy Road, Pietermaritzburg, 3201</div>
 									<h2 class="pbmit-element-title">Democratic Republic of Congo (DRC)</h2>
-									<div class="pbmit-heading-desc">34778, Av John Kalala, C/Annexe, V/Lubumbashie, Katanga, DRC</div>
+									<div class="pbmit-heading-desc">34778, Av John Kalala, C/Annexe, V/Lubumbashie, Katanga</div>
 									<h2 class="pbmit-element-title">Ghana</h2>
-									<div class="pbmit-heading-desc">35 HFC Estate, Community 25, Tema, Ghana</div>
+									<div class="pbmit-heading-desc">35 HFC Estate, Community 25, Tema</div>
 								</div><br>
 								<!--<div class="pbmit-ihbox-contents">
 									<h2 class="pbmit-element-title">Democratic Republic of Congo (DRC)</h2>
@@ -201,6 +202,123 @@
 			</div>
 		</section>
 		<!-- Contact Form End -->
+		<!-- Client Start -->
+		<section>
+			<div class="container">
+				<div class="client-area">
+					<div class="row">
+						<div class="col-md-9">
+							<div class="swiper-slider" data-autoplay="true" data-loop="true" data-dots="false" data-arrows="false" data-columns="5" data-margin="30" data-effect="slide">					
+								<div class="swiper-wrapper">
+									<!-- Slide1 -->
+									<article class="pbmit-client-style-1 swiper-slide">
+										<div class="pbmit-border-wrapper">
+											<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
+												<h4 class="pbmit-hide">Client-01</h4>
+												<div class="pbmit-client-hover-img">
+													<img src="images/client/client-global-06.png" alt>
+												</div>
+												<div class="pbmit-featured-img-wrapper">
+													<div class="pbmit-featured-wrapper">
+														<img src="images/client/client-dark-06.png" class="img-fluid" alt="">
+													</div>
+												</div>
+											</div>
+										</div>
+									</article>
+									<!-- Slide2 -->
+									<article class="pbmit-client-style-1 swiper-slide">
+										<div class="pbmit-border-wrapper">
+											<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
+												<h4 class="pbmit-hide">Client-01</h4>
+												<div class="pbmit-client-hover-img">
+													<img src="images/client/client-global-05.png" alt>
+												</div>
+												<div class="pbmit-featured-img-wrapper">
+													<div class="pbmit-featured-wrapper">
+														<img src="images/client/client-dark-05.png" class="img-fluid" alt="">
+													</div>
+												</div>
+											</div>
+										</div>
+									</article>
+									<!-- Slide3 -->
+									<article class="pbmit-client-style-1 swiper-slide">
+										<div class="pbmit-border-wrapper">
+											<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
+												<h4 class="pbmit-hide">Client-01</h4>
+												<div class="pbmit-client-hover-img">
+													<img src="images/client/client-global-04.png" alt>
+												</div>
+												<div class="pbmit-featured-img-wrapper">
+													<div class="pbmit-featured-wrapper">
+														<img src="images/client/client-dark-04.png" class="img-fluid" alt="">
+													</div>
+												</div>
+											</div>
+										</div>
+									</article>
+									<!-- Slide4 -->
+									<article class="pbmit-client-style-1 swiper-slide">
+										<div class="pbmit-border-wrapper">
+											<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
+												<h4 class="pbmit-hide">Client-01</h4>
+												<div class="pbmit-client-hover-img">
+													<img src="images/client/client-global-03.png" alt>
+												</div>
+												<div class="pbmit-featured-img-wrapper">
+													<div class="pbmit-featured-wrapper">
+														<img src="images/client/client-dark-03.png" class="img-fluid" alt="">
+													</div>
+												</div>
+											</div>
+										</div>
+									</article>
+									<!-- Slide5 -->
+									<article class="pbmit-client-style-1 swiper-slide">
+										<div class="pbmit-border-wrapper">
+											<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
+												<h4 class="pbmit-hide">Client-01</h4>
+												<div class="pbmit-client-hover-img">
+													<img src="images/client/client-global-02.png" alt>
+												</div>
+												<div class="pbmit-featured-img-wrapper">
+													<div class="pbmit-featured-wrapper">
+														<img src="images/client/client-dark-02.png" class="img-fluid" alt="">
+													</div>
+												</div>
+											</div>
+										</div>
+									</article>
+									<!-- Slide6 -->
+									<article class="pbmit-client-style-1 swiper-slide">
+										<div class="pbmit-border-wrapper">
+											<div class="pbmit-client-wrapper pbmit-client-with-hover-img">
+												<h4 class="pbmit-hide">Client-01</h4>
+												<div class="pbmit-client-hover-img">
+													<img src="images/client/client-global-01.png" alt>
+												</div>
+												<div class="pbmit-featured-img-wrapper">
+													<div class="pbmit-featured-wrapper">
+														<img src="images/client/client-dark-01.png" class="img-fluid" alt="">
+													</div>
+												</div>
+											</div>
+										</div>
+									</article>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="client-custom-heading">
+								<h2 class="pbmit-title"> Partners We Trust</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Client End -->
 
 		<section class="iframe-section">
 			<div class="container-fluid p-0">
@@ -209,19 +327,10 @@
 				</div>
 			</div>
 		</section>
-		<!-- Iframe Start -->
-<iframe src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-		<!-- Iframe End -->
 
-	<!-- Contact Us Content End -->
-	
+		<!-- Contact Us Content End -->
 	</div>
-	<!-- Contact Us Content End -->
-   </div>
-   <!-- Page Wrapper End -->
-
-
-
+   	<!-- Page Wrapper End -->
 
 @include('layouts.footer')
 @endsection
