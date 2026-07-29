@@ -27,7 +27,7 @@ body {
 
 @media (max-width: 1500px){
 	/*=== Header ===*/
-	.pbmit-header-style-2.site-header .pbmit-pre-header-wrapper .container-fluid, 
+	.pbmit-header-style-2.site-header .pbmit-pre-header-wrapper .container-fluid,
 	.pbmit-header-style-2.site-header .pbmit-main-header-area .container-fluid{
 		padding: 0 30px;
 	}
@@ -170,7 +170,7 @@ body {
 	.about-us-one-content .third-box{
 		padding-left: 10px;
 	}
-	.testimonial-one, 
+	.testimonial-one,
 	.client-section-one{
 		padding: 0 30px;
 	}
@@ -204,7 +204,7 @@ body {
 	.tab-one-box .pbmit-heading-title{
 		font-size: 23px;
 	}
-	/*=== Homepage-02 ===*/ 
+	/*=== Homepage-02 ===*/
 	.service-section-two{
 		padding: 100px 0 70px;
 	}
@@ -255,7 +255,7 @@ body {
 	}
 	.blog-section-two {
 		padding: 110px 0 70px;
-	} 
+	}
 	/*=== Our History ===*/
 	.our-history{
 		padding: 100px 30px 0;
@@ -395,7 +395,7 @@ body {
 		padding: 0 15px;
 	}
 }
-	
+
 @media(max-width: 1200px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: none;
@@ -403,7 +403,7 @@ body {
 	.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
 		padding-right: calc(var(--bs-gutter-x) * .8);
 		padding-left: calc(var(--bs-gutter-x) * .8);
-	} 
+	}
 	.sticky-header{
 		position: relative  !important;
 	}
@@ -478,7 +478,7 @@ body {
 		-webkit-transition: all 300ms ease;
 		transition: all 300ms ease;
 	}
-    .navbar-toggler { 
+    .navbar-toggler {
 		display: block !important;
 		position: absolute;
 		right: 0px;
@@ -494,27 +494,27 @@ body {
 		width: 40px;
 		z-index: 1;
 	}
-    .navbar-toggler:hover, 
-	.navbar-toggler:focus { 
-		outline: none; 
+    .navbar-toggler:hover,
+	.navbar-toggler:focus {
+		outline: none;
 	}
     .main-menu .navbar-collapse {
 		position: absolute;
 		width: 100%; left: 0;
 		background-color: #fff;
 		z-index: 99;
-		top: 82px; 
+		top: 82px;
 	}
     .main-menu .navigation > li {
-		float: none; 
-		border-bottom: 1px solid rgba(0, 0, 0, 0.10); 
+		float: none;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.10);
 	}
     .site-header .site-navigation ul.navigation > li > a {
-		height: auto!important; 
-		line-height: 28px; 
-		padding: 15px 25px; 
+		height: auto!important;
+		line-height: 28px;
+		padding: 15px 25px;
 		display: inline-block;
-		margin: 0;	
+		margin: 0;
 		color: #000;
 	}
 	.main-menu .navigation > li > ul a{
@@ -525,33 +525,33 @@ body {
 	}
     .main-menu .navigation > li > ul,
 	.main-menu .navigation > li > ul > li > ul {
-		border: none; 
-		box-shadow: inherit !important; 
+		border: none;
+		box-shadow: inherit !important;
 		width: 100%;
-		display: none; 
-		position: inherit; 
-		-webkit-transform: translateY(0); 
-		transform: translateY(0); 
+		display: none;
+		position: inherit;
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
 	}
-    .main-menu .navigation > li > ul > li > ul { 
-		left: 0; 
-		top: 100%; 
+    .main-menu .navigation > li > ul > li > ul {
+		left: 0;
+		top: 100%;
 	}
-    .main-menu .navigation > li.dropdown > ul.open, 
+    .main-menu .navigation > li.dropdown > ul.open,
 	.main-menu .navigation > li.dropdown > ul.open li.dropdown > ul.open {
-		display: block; 
-		opacity: 1; 
-		visibility: visible; 
+		display: block;
+		opacity: 1;
+		visibility: visible;
 		padding-left: 1em;
 	}
 	.main-menu .navigation > li > ul li,
 	.main-menu .navigation > li > ul li a{
 		border: none;
 	}
-    .menu-right-box { 
-		position: relative; 
-		right: 30px; 
-		top: 10px; 
+    .menu-right-box {
+		position: relative;
+		right: 30px;
+		top: 10px;
 	}
 	.site-header .righticon {
 		display: block;
@@ -561,8 +561,8 @@ body {
 		cursor: pointer;
 		color: rgba(0, 0, 0, 0.80);
 	}
-    .site-header .menu-right-box { 
-		display: none !important; 
+    .site-header .menu-right-box {
+		display: none !important;
 	}
     .main-menu ul > li.dropdown > a:after,
 	.pbmit-nav-menu-toggle,
@@ -656,7 +656,7 @@ body {
 		display: none;
 	}
 	/*=== Title Bar ===*/
-	.pbmit-title-bar-wrapper, 
+	.pbmit-title-bar-wrapper,
 	.pbmit-title-bar-content{
 		min-height: 400px;
 	}
@@ -724,7 +724,7 @@ body {
         padding-right: 6px;
         margin-right: 5px;
     }
-    .pbmit-blog-style-3 .pbmit-featured-wrapper, 
+    .pbmit-blog-style-3 .pbmit-featured-wrapper,
 	.pbmit-blog-style-3 .pbmit-featured-wrapper img {
         width: 240px;
     }
@@ -1090,7 +1090,7 @@ body {
 	.pbmit-blog-style-3 .pbminfotech-box-content {
         display: block;
     }
-    .pbmit-blog-style-3 .pbmit-featured-wrapper, 
+    .pbmit-blog-style-3 .pbmit-featured-wrapper,
     .pbmit-blog-style-3 .pbmit-featured-wrapper img {
         width: 100%;
     }
@@ -1181,7 +1181,7 @@ body {
 	.pbmit-portfolio-style-1 .pbminfotech-titlebox {
 		position: relative;
 		padding-right: 60px;
-	}    
+	}
 	.blog-section-two {
         padding: 70px 0 50px;
     }
@@ -1277,12 +1277,12 @@ body {
 }
 
 @media(max-width:991px) {
-	/*=== Section Title ===*/	
+	/*=== Section Title ===*/
 	.pbmit-heading-subheading .pbmit-title{
 		font-size: 45px;
 		line-height: 50px;
 	}
-	/*=== Banner Slider ===*/	
+	/*=== Banner Slider ===*/
 	.pbmit-slider-one .pbmit-slider-item{
 		height: 490px;
 	}
@@ -1315,7 +1315,7 @@ body {
 		margin-bottom: 15px;
 	}
 	/*=== Title Bar ===*/
-	.pbmit-title-bar-wrapper, 
+	.pbmit-title-bar-wrapper,
 	.pbmit-title-bar-content{
 		min-height: 350px;
 	}
@@ -1328,7 +1328,7 @@ body {
 		padding: 30px 20px 27px;
 	}
 	/*=== Homepage 02 ===*/
-	.pbmit-ihbox-style-12 .pbmit-ihbox-icon-wrapper, 
+	.pbmit-ihbox-style-12 .pbmit-ihbox-icon-wrapper,
 	.pbmit-ihbox-style-12 .pbmit-ihbox-svg-wrapper {
 		margin-right: 20px;
 	}
@@ -1378,7 +1378,7 @@ body {
 
 @media(max-width:850px){
 	/*=== Homepage 02 ===*/
-	.pbmit-ihbox-style-12 .pbmit-ihbox-icon-wrapper, 
+	.pbmit-ihbox-style-12 .pbmit-ihbox-icon-wrapper,
 	.pbmit-ihbox-style-12 .pbmit-ihbox-svg-wrapper {
 		height: 60px;
 		width: 60px;
@@ -1433,7 +1433,7 @@ body {
 		line-height: 35px;
 	}
 	/*=== Title Bar ===*/
-	.pbmit-title-bar-wrapper, 
+	.pbmit-title-bar-wrapper,
 	.pbmit-title-bar-content{
 		min-height: 300px;
 	}
@@ -1551,7 +1551,7 @@ body {
         font-size: 50px;
         line-height: 50px;
     }
-	.testimonial-one, 
+	.testimonial-one,
 	.client-section-one{
 		padding: 0;
 	}
@@ -1614,7 +1614,7 @@ body {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
-	/*=== Homepage-02 ===*/ 
+	/*=== Homepage-02 ===*/
 	.service-section-two{
 		padding: 60px 0 30px;
 	}
@@ -1641,7 +1641,7 @@ body {
 	.pbmit-ihbox-style-12 .pbmit-ihbox-box {
 		align-items: inherit;
 	}
-	.pbmit-ihbox-style-12 .pbmit-ihbox-icon-wrapper, 
+	.pbmit-ihbox-style-12 .pbmit-ihbox-icon-wrapper,
 	.pbmit-ihbox-style-12 .pbmit-ihbox-svg-wrapper {
 		height: 70px;
 		width: 70px;
@@ -1711,7 +1711,7 @@ body {
         font-size: 22px;
         line-height: 28px;
     }
-	/*=== Our History ===*/ 
+	/*=== Our History ===*/
 	.our-history{
 		padding: 60px 30px 0;
 	}
@@ -1719,7 +1719,7 @@ body {
 	.faq .accordion.bottom .accordion-body{
 		padding: 0 30px;
 	}
-	/*=== Team Member Detail ===*/	
+	/*=== Team Member Detail ===*/
 	.pbmit-team-single .pbmit-entry-content .pbmit-custom-heading .pbmit-title{
 		font-size: 28px;
 		line-height: 34px;
@@ -1770,8 +1770,8 @@ body {
 	.pbmit-ihbox-style-7 .pbmit-icon-wrapper {
 		display: block !important;
 	}
-	.pbmit-ihbox-style-7 .pbmit-ihbox-svg, 
-	.pbmit-ihbox-style-7 .pbmit-icon-type-icon, 
+	.pbmit-ihbox-style-7 .pbmit-ihbox-svg,
+	.pbmit-ihbox-style-7 .pbmit-icon-type-icon,
 	.pbmit-ihbox-style-7 .pbmit-ihbox-icon-type-text {
 		font-size: 50px;
 		line-height: 50px;
@@ -1816,7 +1816,7 @@ body {
 	.pbmit-ihbox-style-15 .pbmit-ihbox-box {
 		align-items: inherit;
 	}
-	.pbmit-ihbox-style-15 .pbmit-ihbox-icon-wrapper, 
+	.pbmit-ihbox-style-15 .pbmit-ihbox-icon-wrapper,
 	.pbmit-ihbox-style-15 .pbmit-ihbox-svg-wrapper {
 		margin-right: 15px;
 	}
@@ -1889,7 +1889,7 @@ body {
 
 @media(max-width:575px) {
 	/*=== Title Bar ===*/
-	.pbmit-title-bar-wrapper, 
+	.pbmit-title-bar-wrapper,
 	.pbmit-title-bar-content{
 		min-height: 250px;
 	}
@@ -1934,7 +1934,7 @@ body {
 	.form-one-area .pbmit-appointment-form{
 		padding: 35px 25px 25px;
 	}
-	/*=== Team Member Detail ===*/ 
+	/*=== Team Member Detail ===*/
 	.pbmit-team-single .pbmit-team-single-info .pbmit-team-detail .pbmit-team-des{
 		padding: 30px;
 	}
@@ -1942,7 +1942,7 @@ body {
 		padding: 30px 25px 40px;
 	}
 	/*=== Service Details ===*/
-	.pbmit-ihbox-style-3 .pbmit-ihbox-icon-wrapper, 
+	.pbmit-ihbox-style-3 .pbmit-ihbox-icon-wrapper,
 	.pbmit-ihbox-style-3 .pbmit-ihbox-svg-wrapper {
 		min-width: 60px;
 		height: 60px;
@@ -1955,11 +1955,11 @@ body {
 		margin-top: 0;
 		margin-bottom: 13px;
 	}
-	.pbmit-ihbox-style-3 .pbmit-ihbox-icon, 
+	.pbmit-ihbox-style-3 .pbmit-ihbox-icon,
 	.pbmit-ihbox-style-3 .pbmit-ihbox-svg {
 		margin-right: 15px;
 	}
-	/*=== Portfolio Detail ===*/ 
+	/*=== Portfolio Detail ===*/
 	.pbmit-portfolio-single .pbmit-portfolio-lines-wrapper ul{
 		grid-template-columns: repeat(1, 1fr) !important;
 	}
@@ -1983,14 +1983,14 @@ body {
 	.pbmit-portfolio-single .pbmit-portfolio-lines-wrapper{
 		padding: 0 !important;
 	}
-	/*=== Blog Classic ===*/ 
+	/*=== Blog Classic ===*/
 	.post.blog-classic .pbmit-blog-classic-inner .pbmit-post-title{
 		font-size: 26px;
         line-height: 36px;
         margin-bottom: 20px;
         padding-bottom: 20px;
 	}
-	/*=== Blog Single Detail ===*/ 
+	/*=== Blog Single Detail ===*/
 	.blog-details .pbmit-entry-content blockquote{
 		padding: 30px;
 		font-size: 20px;
@@ -2045,7 +2045,7 @@ body {
 		padding: 30px 30px 30px;
 		margin-bottom: 0;
 	}
-	/*=== Contact Us ===*/ 
+	/*=== Contact Us ===*/
 	.ihbox-section .pbmit-ihbox-style-3{
 		padding: 30px 25px 27PX;
 	}
@@ -2065,11 +2065,11 @@ body {
 }
 
 @media (max-width: 485px){
-	/*=== Header ===*/ 
+	/*=== Header ===*/
 	.site-header .pbmit-header-search-btn{
 		display: none;
 	}
-	/*=== Banner Slider ===*/ 
+	/*=== Banner Slider ===*/
 	.pbmit-slider-one .pbmit-slider-item{
 		height: 400px;
 	}
@@ -2281,7 +2281,7 @@ body {
 		color: var(--pbmit-global-color);
 	}
 	.main-menu .navigation > li > ul , .main-menu .navigation > li > ul > li > ul {
-		min-width: 250px;
+		min-width: 350px;
 		position: absolute;
 		padding: 8px 0;
 		top: 100%;
@@ -2420,7 +2420,7 @@ body {
         z-index: 9;
         opacity: 1;
         visibility: visible;
-        -webkit-transform: translateY(0%);	
+        -webkit-transform: translateY(0%);
         transform: translateY(0%);
     }
 	.pbmit-header-style-2 .pbmit-pre-header-wrapper{
@@ -2439,7 +2439,7 @@ body {
 	.pbmit-header-style-2 .pbmit-logo-area{
 		margin-right: 35px;
 	}
-	.pbmit-header-style-2 .site-navigation ul.navigation > li, 
+	.pbmit-header-style-2 .site-navigation ul.navigation > li,
 	.pbmit-header-style-2 .site-navigation ul.navigation > li > a{
 		height: 95px;
 		line-height: 95px;
