@@ -285,7 +285,7 @@ body {
 	padding: 0 65px;
 }
 .about-two-bg-img{
-	background-image: url(../images/homepage-2/about-img-01.png);
+	background-image: url(../images/homepage-2/about-img.jpg);
 	background-repeat: no-repeat;
     background-size: cover;
 	border-radius: 20px 0px 0px 20px;
@@ -2200,7 +2200,7 @@ aside.widget.widget-tag-cloud a:hover,
 	padding: 30px 37px 27PX;
 }
 .contact-form-left-box{
-	background-image: url(../images/bg/contact-bg.png);
+	background-image: url(../images/bg/contact.jpg);
 	background-repeat: no-repeat;
     background-size: cover;
 	border-radius: 20px;

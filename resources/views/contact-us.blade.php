@@ -76,15 +76,19 @@
 									<h2 class="pbmit-element-title">South Africa</h2>
 									<div class="pbmit-heading-desc">28 Lemoendoring Street, Weltevredenpark, 1709, Johannesburg, South Africa</div>
 									<div class="pbmit-heading-desc">25 Trichy Road, Pietermaritzburg, 3201, KwaZulu-Natal, South Africa</div>
-								</div>
-								<div class="pbmit-ihbox-contents">
 									<h2 class="pbmit-element-title">Democratic Republic of Congo (DRC)</h2>
 									<div class="pbmit-heading-desc">34778, Av John Kalala, C/Annexe, V/Lubumbashie, Katanga, DRC</div>
-								</div>
+									<h2 class="pbmit-element-title">Ghana</h2>
+									<div class="pbmit-heading-desc">35 HFC Estate, Community 25, Tema, Ghana</div>
+								</div><br>
+								<!--<div class="pbmit-ihbox-contents">
+									<h2 class="pbmit-element-title">Democratic Republic of Congo (DRC)</h2>
+									<div class="pbmit-heading-desc"></div>
+								</div><br>
 								<div class="pbmit-ihbox-contents">
 									<h2 class="pbmit-element-title">Ghana</h2>
 									<div class="pbmit-heading-desc">35 HFC Estate, Community 25, Tema, Ghana</div>
-								</div>
+								</div>-->
 							</div>
 						</div>
 					</div>
@@ -201,12 +205,12 @@
 		<section class="iframe-section">
 			<div class="container-fluid p-0">
 				<div class="iframe-area">
-					<iframe src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near" title="London Eye, London, United Kingdom" aria-label="London Eye, London, United Kingdom"></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.750503003708!2d27.9257313!3d-26.1233606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e957558631f40db%3A0xf8213b8e0f184505!2s28%20Lemoendoring%20St%2C%20Weltevredenpark%2C%20Roodepoort%2C%201709!5e1!3m2!1sen!2sza!4v1785324070955!5m2!1sen!2sza" title="London Eye, London, United Kingdom" aria-label="London Eye, London, United Kingdom"></iframe>
 				</div>
 			</div>
 		</section>
 		<!-- Iframe Start -->
-
+<iframe src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 		<!-- Iframe End -->
 
 	<!-- Contact Us Content End -->
