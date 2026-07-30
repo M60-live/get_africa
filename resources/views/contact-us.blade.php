@@ -23,15 +23,15 @@
 						</div>
 					</div>
 				</div>
-			</div>  
-		</div> 
+			</div>
+		</div>
 	</div>
 	<!-- Title Bar End-->
 
 	<!-- Contact Us Content -->
-	<div class="page-content contact-us">  
+	<div class="page-content contact-us">
 
-		<!-- Ihbox --> 
+		<!-- Ihbox -->
 		<section class="ihbox-section">
 			<div class="container">
 				<div class="row">
@@ -75,25 +75,11 @@
 								<div class="pbmit-ihbox-contents">
 									<h2 class="pbmit-element-title">Johannesburg</h2>
 									<div class="pbmit-heading-desc">28 Lemoendoring Street, Weltevredenpark, 1709</div>
-									<h2 class="pbmit-element-title">KwaZulu-Natal</h2>
-									<div class="pbmit-heading-desc">25 Trichy Road, Pietermaritzburg, 3201</div>
-									<h2 class="pbmit-element-title">Democratic Republic of Congo (DRC)</h2>
-									<div class="pbmit-heading-desc">34778, Av John Kalala, C/Annexe, V/Lubumbashie, Katanga</div>
-									<h2 class="pbmit-element-title">Ghana</h2>
-									<div class="pbmit-heading-desc">35 HFC Estate, Community 25, Tema</div>
-								</div><br>
-								<!--<div class="pbmit-ihbox-contents">
-									<h2 class="pbmit-element-title">Democratic Republic of Congo (DRC)</h2>
-									<div class="pbmit-heading-desc"></div>
-								</div><br>
-								<div class="pbmit-ihbox-contents">
-									<h2 class="pbmit-element-title">Ghana</h2>
-									<div class="pbmit-heading-desc">35 HFC Estate, Community 25, Tema, Ghana</div>
-								</div>-->
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-12 col-xl-4 pbmit-column">
+					<div class="col-md-12 col-xl-4 pbmit-column mb-4">
 						<div class="pbmit-ihbox-style-3">
 							<div class="pbmit-ihbox-box">
 								<div class="pbmit-ihbox-icon">
@@ -109,9 +95,56 @@
 						</div>
 					</div>
 				</div>
+                <div class="row">
+                    <div class="col-md-12 col-xl-4 pbmit-column mb-xl-0 mb-4">
+                        <div class="pbmit-ihbox-style-3">
+                            <div class="pbmit-ihbox-box">
+                                <div class="pbmit-ihbox-icon">
+                                    <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
+                                        <svg clip-rule="evenodd" fill-rule="evenodd" height="512" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 512 512" width="512"><g><g><g><g><path d="m256 392.69c-2.04 0-3.94-1.04-5.04-2.75-5.81-9.03-14.14-21.06-23.78-34.98-44.13-63.74-110.81-160.06-110.81-215.23 0-77 62.64-139.64 139.63-139.64 77 0 139.64 62.64 139.64 139.64 0 55.17-66.69 151.49-110.82 215.22-9.64 13.93-17.97 25.96-23.77 34.99-1.11 1.71-3.01 2.75-5.05 2.75zm0-380.6c-70.38 0-127.64 57.26-127.64 127.64 0 51.42 68.04 149.69 108.68 208.4 7.21 10.4 13.68 19.76 18.96 27.65 5.28-7.9 11.76-17.25 18.96-27.65 40.65-58.71 108.68-156.98 108.68-208.4 0-70.38-57.26-127.64-127.64-127.64z"></path></g><g><path d="m256 222.51c-42.69 0-77.43-34.73-77.43-77.43 0-42.69 34.74-77.43 77.43-77.43 42.7 0 77.43 34.74 77.43 77.43 0 42.7-34.73 77.43-77.43 77.43zm0-142.86c-36.08 0-65.43 29.35-65.43 65.43s29.35 65.43 65.43 65.43 65.43-29.35 65.43-65.43-29.35-65.43-65.43-65.43z"></path></g><g><path d="m256.14 464.34c-2.54 0-5.08-.04-7.64-.13-29.33-1.07-56.23-8.21-75.74-20.11-19.63-11.96-29.92-27.68-28.98-44.25 1.04-18.22 15.2-34.54 39.88-45.97 3-1.39 6.57-.08 7.96 2.93 1.39 3 .08 6.57-2.92 7.96-20.17 9.34-32.18 22.37-32.94 35.76-.68 11.94 7.58 23.78 23.24 33.33 37 22.55 101.73 24.86 144.31 5.15 20.16-9.34 32.17-22.38 32.93-35.77.68-11.94-7.57-23.77-23.24-33.32-2.83-1.73-3.73-5.42-2-8.25 1.72-2.83 5.41-3.72 8.24-2 19.63 11.97 29.92 27.68 28.98 44.25-1.04 18.22-15.2 34.55-39.88 45.97-20.29 9.4-45.69 14.45-72.2 14.45z"></path></g><g><path d="m256.23 511.91c-4.02 0-8.05-.08-12.09-.22-46.33-1.69-88.75-12.93-119.46-31.65-30.22-18.42-46.07-42.4-44.64-67.52 1.58-27.77 23.5-52.8 61.72-70.5 3-1.39 6.57-.08 7.96 2.93 1.39 3 .08 6.57-2.92 7.96-33.52 15.51-53.49 37.49-54.78 60.29-1.17 20.49 12.65 40.59 38.91 56.6 60.09 36.63 165.19 40.41 234.28 8.43 33.51-15.52 53.48-37.49 54.78-60.29 1.17-20.49-12.65-40.59-38.91-56.6-2.83-1.73-3.73-5.42-2-8.24 1.72-2.83 5.41-3.73 8.24-2 30.22 18.42 46.08 42.4 44.64 67.52-1.58 27.76-23.5 52.8-61.71 70.49-32.02 14.83-72.11 22.8-114.02 22.8z"></path></g></g></g></g></svg>
+                                    </div>
+                                </div>
+                                <div class="pbmit-ihbox-contents">
+                                    <h2 class="pbmit-element-title">KwaZulu-Natal</h2>
+                                    <div class="pbmit-heading-desc">25 Trichy Road, Pietermaritzburg, 3201</div>
+                                </div><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-xl-4 pbmit-column mb-xl-0 mb-4">
+                        <div class="pbmit-ihbox-style-3">
+                            <div class="pbmit-ihbox-box">
+                                <div class="pbmit-ihbox-icon">
+                                    <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
+                                        <svg clip-rule="evenodd" fill-rule="evenodd" height="512" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 512 512" width="512"><g><g><g><g><path d="m256 392.69c-2.04 0-3.94-1.04-5.04-2.75-5.81-9.03-14.14-21.06-23.78-34.98-44.13-63.74-110.81-160.06-110.81-215.23 0-77 62.64-139.64 139.63-139.64 77 0 139.64 62.64 139.64 139.64 0 55.17-66.69 151.49-110.82 215.22-9.64 13.93-17.97 25.96-23.77 34.99-1.11 1.71-3.01 2.75-5.05 2.75zm0-380.6c-70.38 0-127.64 57.26-127.64 127.64 0 51.42 68.04 149.69 108.68 208.4 7.21 10.4 13.68 19.76 18.96 27.65 5.28-7.9 11.76-17.25 18.96-27.65 40.65-58.71 108.68-156.98 108.68-208.4 0-70.38-57.26-127.64-127.64-127.64z"></path></g><g><path d="m256 222.51c-42.69 0-77.43-34.73-77.43-77.43 0-42.69 34.74-77.43 77.43-77.43 42.7 0 77.43 34.74 77.43 77.43 0 42.7-34.73 77.43-77.43 77.43zm0-142.86c-36.08 0-65.43 29.35-65.43 65.43s29.35 65.43 65.43 65.43 65.43-29.35 65.43-65.43-29.35-65.43-65.43-65.43z"></path></g><g><path d="m256.14 464.34c-2.54 0-5.08-.04-7.64-.13-29.33-1.07-56.23-8.21-75.74-20.11-19.63-11.96-29.92-27.68-28.98-44.25 1.04-18.22 15.2-34.54 39.88-45.97 3-1.39 6.57-.08 7.96 2.93 1.39 3 .08 6.57-2.92 7.96-20.17 9.34-32.18 22.37-32.94 35.76-.68 11.94 7.58 23.78 23.24 33.33 37 22.55 101.73 24.86 144.31 5.15 20.16-9.34 32.17-22.38 32.93-35.77.68-11.94-7.57-23.77-23.24-33.32-2.83-1.73-3.73-5.42-2-8.25 1.72-2.83 5.41-3.72 8.24-2 19.63 11.97 29.92 27.68 28.98 44.25-1.04 18.22-15.2 34.55-39.88 45.97-20.29 9.4-45.69 14.45-72.2 14.45z"></path></g><g><path d="m256.23 511.91c-4.02 0-8.05-.08-12.09-.22-46.33-1.69-88.75-12.93-119.46-31.65-30.22-18.42-46.07-42.4-44.64-67.52 1.58-27.77 23.5-52.8 61.72-70.5 3-1.39 6.57-.08 7.96 2.93 1.39 3 .08 6.57-2.92 7.96-33.52 15.51-53.49 37.49-54.78 60.29-1.17 20.49 12.65 40.59 38.91 56.6 60.09 36.63 165.19 40.41 234.28 8.43 33.51-15.52 53.48-37.49 54.78-60.29 1.17-20.49-12.65-40.59-38.91-56.6-2.83-1.73-3.73-5.42-2-8.24 1.72-2.83 5.41-3.73 8.24-2 30.22 18.42 46.08 42.4 44.64 67.52-1.58 27.76-23.5 52.8-61.71 70.49-32.02 14.83-72.11 22.8-114.02 22.8z"></path></g></g></g></g></svg>
+                                    </div>
+                                </div>
+                                <div class="pbmit-ihbox-contents">
+                                    <h2 class="pbmit-element-title">Democratic Republic of Congo (DRC)</h2>
+                                    <div class="pbmit-heading-desc">34778, Av John Kalala, C/Annexe, V/Lubumbashie, Katanga</div>
+                                </div><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-xl-4 pbmit-column mb-xl-0 mb-4">
+                        <div class="pbmit-ihbox-style-3">
+                            <div class="pbmit-ihbox-box">
+                                <div class="pbmit-ihbox-icon">
+                                    <div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
+                                        <svg clip-rule="evenodd" fill-rule="evenodd" height="512" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 512 512" width="512"><g><g><g><g><path d="m256 392.69c-2.04 0-3.94-1.04-5.04-2.75-5.81-9.03-14.14-21.06-23.78-34.98-44.13-63.74-110.81-160.06-110.81-215.23 0-77 62.64-139.64 139.63-139.64 77 0 139.64 62.64 139.64 139.64 0 55.17-66.69 151.49-110.82 215.22-9.64 13.93-17.97 25.96-23.77 34.99-1.11 1.71-3.01 2.75-5.05 2.75zm0-380.6c-70.38 0-127.64 57.26-127.64 127.64 0 51.42 68.04 149.69 108.68 208.4 7.21 10.4 13.68 19.76 18.96 27.65 5.28-7.9 11.76-17.25 18.96-27.65 40.65-58.71 108.68-156.98 108.68-208.4 0-70.38-57.26-127.64-127.64-127.64z"></path></g><g><path d="m256 222.51c-42.69 0-77.43-34.73-77.43-77.43 0-42.69 34.74-77.43 77.43-77.43 42.7 0 77.43 34.74 77.43 77.43 0 42.7-34.73 77.43-77.43 77.43zm0-142.86c-36.08 0-65.43 29.35-65.43 65.43s29.35 65.43 65.43 65.43 65.43-29.35 65.43-65.43-29.35-65.43-65.43-65.43z"></path></g><g><path d="m256.14 464.34c-2.54 0-5.08-.04-7.64-.13-29.33-1.07-56.23-8.21-75.74-20.11-19.63-11.96-29.92-27.68-28.98-44.25 1.04-18.22 15.2-34.54 39.88-45.97 3-1.39 6.57-.08 7.96 2.93 1.39 3 .08 6.57-2.92 7.96-20.17 9.34-32.18 22.37-32.94 35.76-.68 11.94 7.58 23.78 23.24 33.33 37 22.55 101.73 24.86 144.31 5.15 20.16-9.34 32.17-22.38 32.93-35.77.68-11.94-7.57-23.77-23.24-33.32-2.83-1.73-3.73-5.42-2-8.25 1.72-2.83 5.41-3.72 8.24-2 19.63 11.97 29.92 27.68 28.98 44.25-1.04 18.22-15.2 34.55-39.88 45.97-20.29 9.4-45.69 14.45-72.2 14.45z"></path></g><g><path d="m256.23 511.91c-4.02 0-8.05-.08-12.09-.22-46.33-1.69-88.75-12.93-119.46-31.65-30.22-18.42-46.07-42.4-44.64-67.52 1.58-27.77 23.5-52.8 61.72-70.5 3-1.39 6.57-.08 7.96 2.93 1.39 3 .08 6.57-2.92 7.96-33.52 15.51-53.49 37.49-54.78 60.29-1.17 20.49 12.65 40.59 38.91 56.6 60.09 36.63 165.19 40.41 234.28 8.43 33.51-15.52 53.48-37.49 54.78-60.29 1.17-20.49-12.65-40.59-38.91-56.6-2.83-1.73-3.73-5.42-2-8.24 1.72-2.83 5.41-3.73 8.24-2 30.22 18.42 46.08 42.4 44.64 67.52-1.58 27.76-23.5 52.8-61.71 70.49-32.02 14.83-72.11 22.8-114.02 22.8z"></path></g></g></g></g></svg>
+                                    </div>
+                                </div>
+                                <div class="pbmit-ihbox-contents">
+                                    <h2 class="pbmit-element-title">Ghana</h2>
+                                    <div class="pbmit-heading-desc">35 HFC Estate, Community 25, Tema</div>
+                                </div><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 			</div>
-		</section>            
-		<!-- Ihbox End -->  
+		</section>
+		<!-- Ihbox End -->
 
 		<!-- Contact Form -->
 		<section>
@@ -208,7 +241,7 @@
 				<div class="client-area">
 					<div class="row">
 						<div class="col-md-9">
-							<div class="swiper-slider" data-autoplay="true" data-loop="true" data-dots="false" data-arrows="false" data-columns="5" data-margin="30" data-effect="slide">					
+							<div class="swiper-slider" data-autoplay="true" data-loop="true" data-dots="false" data-arrows="false" data-columns="5" data-margin="30" data-effect="slide">
 								<div class="swiper-wrapper">
 									<!-- Slide1 -->
 									<article class="pbmit-client-style-1 swiper-slide">
