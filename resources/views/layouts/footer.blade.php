@@ -42,7 +42,10 @@
                     <aside class="widget">
                         <h2 class="widget-title">Head Quarters</h2>
                         <div class="pbmit-contact-widget-lines">
-                            <div class="pbmit-contact-widget-line pbmit-base-icon-location">28 Lemoendoring Street, Weltevredenpark, 1709, Johannesburg, South Africa</div>
+                            <div class="pbmit-contact-widget-line pbmit-base-icon-location">35 HFC Estate, Community 25, Tema, Ghana</div>
+                        </div>
+                        <div class="pbmit-contact-widget-lines">
+                            <div class="pbmit-contact-widget-line pbmit-base-icon-location">34778 Av John Kalala, C/Annexe, V/Lubumbashi, Katanga, DRC</div>
                         </div>
                     </aside>
                 </div>
@@ -51,9 +54,8 @@
                         <h2 class="widget-title">Branches</h2>
                         <div class="pbmit-contact-widget-lines">
                             <div class="pbmit-contact-widget-line pbmit-base-icon-email">info@get.com</div>
-                            <div class="pbmit-contact-widget-line pbmit-base-icon-email">Johannesburg: +27 71 723 4937</div>
-                            <div class="pbmit-contact-widget-line pbmit-base-icon-email">Kwa Zulu Natal: +27 78 888 9764</div>
-                            <div class="pbmit-contact-widget-line pbmit-base-icon-email">Ghana: +233 24 514 2414</div>
+                            <div class="pbmit-contact-widget-line pbmit-base-icon-email">Ghana: +233244755699</div>
+                            <div class="pbmit-contact-widget-line pbmit-base-icon-email">DRC: +243995851962</div>
                         </div>
                     </aside>
                 </div>

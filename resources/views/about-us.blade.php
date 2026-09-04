@@ -16,7 +16,7 @@
 					<div class="pbmit-breadcrumb">
 						<div class="pbmit-breadcrumb-inner">
 							<span>
-								<a title="" href="#" class="home"><span>GET</span></a>
+								<a title="" href="/" class="home"><span>GET</span></a>
 							</span>
 							<i class="pbmit-base-icon-arrow-right-2"></i>
 							<span><span class="post-root post post-post current-item"> About Us</span></span>

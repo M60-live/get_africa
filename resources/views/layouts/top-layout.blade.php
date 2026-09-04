@@ -49,22 +49,22 @@
                     <div class="d-flex justify-content-between">
                         <div class="pbmit-pre-header-left">
                             <ul class="pbmit-contact-info">
-                                <li><i class="pbmit-base-icon-headphones"></i>  Need Support?<a href="/contact-us"> Free Consultant</a></li>
+                                <li><b>Geo-Hydraulic & Environmental Technology</b></li>
                             </ul>
                         </div>
                         <div class="pbmit-pre-header-right">
                             <ul class="pbmit-contact-info">
                                 <li>
                                     <a href="mailto:info@get.com">
-                                        <i class="pbmit-base-icon-email"></i> info@get.com</a>
+                                        <i class="pbmit-base-icon-email"></i>info@get.com</a>
                                 </li>
                                 <li>
-                                    <i class=" pbmit-base-icon-marker"></i>28 Lemoendoring Street, Johannesburg, South Africa</li>
+                                    <i class=" pbmit-base-icon-marker"></i>35 HFC Estate, Community 25, Tema, Ghana</li>
                                 <li>
                                     <a href="tel:(+27) 33 391 0707">
-                                        <i class="pbmit-base-icon-phone-call-1"></i>+27 33 391 0707
+                                        <i class="pbmit-base-icon-phone-call-1"></i>+233244755699
                                     </a> |
-                                    <a href="tel:(+27) 78 884 5263">+27 78 884 5263</a>
+                                    <a href="tel:(+27) 78 884 5263">+243995851962</a>
                                 </li>
                             </ul>
                         </div>
